@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\SignupSol\IntegrateX\IntegrateX\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-30T06:52:48.814</Modified>
+      <Modified>2023-03-30T12:30:59.657</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-30T06:52:46.929</Modified>
+      <Modified>2023-03-30T12:27:40.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\IntegrateX.runtimeconfig.json">
       <PackagePath>IntegrateX.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\IntegrateX.dll">
       <PackagePath>IntegrateX.dll</PackagePath>
-      <Modified>2023-03-30T06:52:45.078</Modified>
+      <Modified>2023-03-30T12:30:57.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>IntegrateX.exe</PackagePath>
-      <Modified>2023-03-30T06:52:45.112</Modified>
+      <Modified>2023-03-30T12:30:57.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shake\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.15\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1064,7 +1064,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\IntegrateX.deps.json">
       <PackagePath>IntegrateX.deps.json</PackagePath>
-      <Modified>2023-03-30T06:52:48.470</Modified>
+      <Modified>2023-03-30T12:30:59.443</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shake\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1102,6 +1102,14 @@
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2023-03-29T06:18:06.132</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Harabara Mais Demo.otf">
+      <PackagePath>Harabara Mais Demo.otf</PackagePath>
+      <Modified>2014-07-16T05:18:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Harabara.otf">
+      <PackagePath>Harabara.otf</PackagePath>
+      <Modified>2014-07-16T05:18:08.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2023-03-29T06:14:04.567</Modified>
@@ -1110,589 +1118,701 @@
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2023-03-29T06:14:04.569</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Black.ttf">
+      <PackagePath>Roboto-Black.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-BlackItalic.ttf">
+      <PackagePath>Roboto-BlackItalic.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Bold.ttf">
+      <PackagePath>Roboto-Bold.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-BoldItalic.ttf">
+      <PackagePath>Roboto-BoldItalic.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Italic.ttf">
+      <PackagePath>Roboto-Italic.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Light.ttf">
+      <PackagePath>Roboto-Light.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-LightItalic.ttf">
+      <PackagePath>Roboto-LightItalic.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Medium.ttf">
+      <PackagePath>Roboto-Medium.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-MediumItalic.ttf">
+      <PackagePath>Roboto-MediumItalic.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Regular.ttf">
+      <PackagePath>Roboto-Regular.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Thin.ttf">
+      <PackagePath>Roboto-Thin.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-ThinItalic.ttf">
+      <PackagePath>Roboto-ThinItalic.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\RobotoCondensed-Bold.ttf">
+      <PackagePath>RobotoCondensed-Bold.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\RobotoCondensed-BoldItalic.ttf">
+      <PackagePath>RobotoCondensed-BoldItalic.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\RobotoCondensed-Italic.ttf">
+      <PackagePath>RobotoCondensed-Italic.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\RobotoCondensed-Light.ttf">
+      <PackagePath>RobotoCondensed-Light.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\RobotoCondensed-LightItalic.ttf">
+      <PackagePath>RobotoCondensed-LightItalic.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\RobotoCondensed-Regular.ttf">
+      <PackagePath>RobotoCondensed-Regular.ttf</PackagePath>
+      <Modified>2023-03-30T00:39:18.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-03-30T06:34:53.833</Modified>
+      <Modified>2023-03-30T10:54:03.962</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.892</Modified>
+      <Modified>2023-03-30T10:54:04.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.935</Modified>
+      <Modified>2023-03-30T10:54:04.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.979</Modified>
+      <Modified>2023-03-30T10:54:04.541</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:55.024</Modified>
+      <Modified>2023-03-30T10:54:04.575</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:55.216</Modified>
+      <Modified>2023-03-30T10:54:04.679</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.245</Modified>
+      <Modified>2023-03-30T10:54:04.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.267</Modified>
+      <Modified>2023-03-30T10:54:04.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.332</Modified>
+      <Modified>2023-03-30T10:54:04.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.282</Modified>
+      <Modified>2023-03-30T10:54:04.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.307</Modified>
+      <Modified>2023-03-30T10:54:04.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.163</Modified>
+      <Modified>2023-03-30T10:54:04.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.180</Modified>
+      <Modified>2023-03-30T10:54:04.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.236</Modified>
+      <Modified>2023-03-30T10:54:04.091</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.194</Modified>
+      <Modified>2023-03-30T10:54:04.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.215</Modified>
+      <Modified>2023-03-30T10:54:04.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.906</Modified>
+      <Modified>2023-03-30T10:54:03.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.925</Modified>
+      <Modified>2023-03-30T10:54:03.987</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.945</Modified>
+      <Modified>2023-03-30T10:54:03.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.965</Modified>
+      <Modified>2023-03-30T10:54:04.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.984</Modified>
+      <Modified>2023-03-30T10:54:04.014</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.997</Modified>
+      <Modified>2023-03-30T10:54:04.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.014</Modified>
+      <Modified>2023-03-30T10:54:04.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.155</Modified>
+      <Modified>2023-03-30T10:54:04.054</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.039</Modified>
+      <Modified>2023-03-30T10:54:04.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.095</Modified>
+      <Modified>2023-03-30T10:54:04.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.491</Modified>
+      <Modified>2023-03-30T10:54:04.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.512</Modified>
+      <Modified>2023-03-30T10:54:04.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.527</Modified>
+      <Modified>2023-03-30T10:54:04.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.549</Modified>
+      <Modified>2023-03-30T10:54:04.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.605</Modified>
+      <Modified>2023-03-30T10:54:04.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.423</Modified>
+      <Modified>2023-03-30T10:54:04.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.435</Modified>
+      <Modified>2023-03-30T10:54:04.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.446</Modified>
+      <Modified>2023-03-30T10:54:04.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.456</Modified>
+      <Modified>2023-03-30T10:54:04.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.480</Modified>
+      <Modified>2023-03-30T10:54:04.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.347</Modified>
+      <Modified>2023-03-30T10:54:04.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.357</Modified>
+      <Modified>2023-03-30T10:54:04.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.381</Modified>
+      <Modified>2023-03-30T10:54:04.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.400</Modified>
+      <Modified>2023-03-30T10:54:04.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.414</Modified>
+      <Modified>2023-03-30T10:54:04.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.623</Modified>
+      <Modified>2023-03-30T10:54:04.301</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.675</Modified>
+      <Modified>2023-03-30T10:54:04.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.709</Modified>
+      <Modified>2023-03-30T10:54:04.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.769</Modified>
+      <Modified>2023-03-30T10:54:04.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.865</Modified>
+      <Modified>2023-03-30T10:54:04.415</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-100.png">
       <PackagePath>arrow_down.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.420</Modified>
+      <Modified>2023-03-30T10:54:03.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-125.png">
       <PackagePath>arrow_down.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.423</Modified>
+      <Modified>2023-03-30T10:54:03.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-150.png">
       <PackagePath>arrow_down.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.432</Modified>
+      <Modified>2023-03-30T10:54:03.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-200.png">
       <PackagePath>arrow_down.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.437</Modified>
+      <Modified>2023-03-30T10:54:03.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-400.png">
       <PackagePath>arrow_down.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.443</Modified>
+      <Modified>2023-03-30T10:54:03.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-100.png">
       <PackagePath>arrow_left.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.448</Modified>
+      <Modified>2023-03-30T10:54:03.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-125.png">
       <PackagePath>arrow_left.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.453</Modified>
+      <Modified>2023-03-30T10:54:03.561</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-150.png">
       <PackagePath>arrow_left.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.462</Modified>
+      <Modified>2023-03-30T10:54:03.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-200.png">
       <PackagePath>arrow_left.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.488</Modified>
+      <Modified>2023-03-30T10:54:03.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-400.png">
       <PackagePath>arrow_left.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.496</Modified>
+      <Modified>2023-03-30T10:54:03.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-100.png">
       <PackagePath>arrow_right.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.521</Modified>
+      <Modified>2023-03-30T10:54:03.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-125.png">
       <PackagePath>arrow_right.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.531</Modified>
+      <Modified>2023-03-30T10:54:03.576</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-150.png">
       <PackagePath>arrow_right.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.570</Modified>
+      <Modified>2023-03-30T10:54:03.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-200.png">
       <PackagePath>arrow_right.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.615</Modified>
+      <Modified>2023-03-30T10:54:03.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-400.png">
       <PackagePath>arrow_right.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.684</Modified>
+      <Modified>2023-03-30T10:54:03.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-100.png">
       <PackagePath>arrow_up.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.573</Modified>
+      <Modified>2023-03-30T10:54:03.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-125.png">
       <PackagePath>arrow_up.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.613</Modified>
+      <Modified>2023-03-30T10:54:03.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-150.png">
       <PackagePath>arrow_up.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.682</Modified>
+      <Modified>2023-03-30T10:54:03.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-200.png">
       <PackagePath>arrow_up.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.712</Modified>
+      <Modified>2023-03-30T10:54:03.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-400.png">
       <PackagePath>arrow_up.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.715</Modified>
+      <Modified>2023-03-30T10:54:03.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-100.png">
       <PackagePath>back_arrow.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.697</Modified>
+      <Modified>2023-03-30T10:54:03.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-125.png">
       <PackagePath>back_arrow.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.735</Modified>
+      <Modified>2023-03-30T10:54:03.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-150.png">
       <PackagePath>back_arrow.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.737</Modified>
+      <Modified>2023-03-30T10:54:03.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-200.png">
       <PackagePath>back_arrow.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.748</Modified>
+      <Modified>2023-03-30T10:54:03.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-400.png">
       <PackagePath>back_arrow.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.806</Modified>
+      <Modified>2023-03-30T10:54:03.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_icon.scale-100.png">
+      <PackagePath>cross_icon.scale-100.png</PackagePath>
+      <Modified>2023-03-30T10:39:12.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_icon.scale-125.png">
+      <PackagePath>cross_icon.scale-125.png</PackagePath>
+      <Modified>2023-03-30T10:39:54.628</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_icon.scale-150.png">
+      <PackagePath>cross_icon.scale-150.png</PackagePath>
+      <Modified>2023-03-30T10:39:54.635</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_icon.scale-200.png">
+      <PackagePath>cross_icon.scale-200.png</PackagePath>
+      <Modified>2023-03-30T10:39:54.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_icon.scale-400.png">
+      <PackagePath>cross_icon.scale-400.png</PackagePath>
+      <Modified>2023-03-30T10:39:54.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-100.png">
       <PackagePath>delete_icon.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.421</Modified>
+      <Modified>2023-03-30T10:54:03.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-125.png">
       <PackagePath>delete_icon.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.427</Modified>
+      <Modified>2023-03-30T10:54:03.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-150.png">
       <PackagePath>delete_icon.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.433</Modified>
+      <Modified>2023-03-30T10:54:03.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-200.png">
       <PackagePath>delete_icon.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.442</Modified>
+      <Modified>2023-03-30T10:54:03.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-400.png">
       <PackagePath>delete_icon.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.453</Modified>
+      <Modified>2023-03-30T10:54:03.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.668</Modified>
+      <Modified>2023-03-30T10:54:03.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.732</Modified>
+      <Modified>2023-03-30T10:54:03.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.825</Modified>
+      <Modified>2023-03-30T10:54:03.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.892</Modified>
+      <Modified>2023-03-30T10:54:03.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.078</Modified>
+      <Modified>2023-03-30T10:54:04.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-100.png">
       <PackagePath>edit_icon.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.081</Modified>
+      <Modified>2023-03-30T10:54:03.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-125.png">
       <PackagePath>edit_icon.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.084</Modified>
+      <Modified>2023-03-30T10:54:03.608</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-150.png">
       <PackagePath>edit_icon.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.085</Modified>
+      <Modified>2023-03-30T10:54:03.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-200.png">
       <PackagePath>edit_icon.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.088</Modified>
+      <Modified>2023-03-30T10:54:03.611</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-400.png">
       <PackagePath>edit_icon.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:54.091</Modified>
+      <Modified>2023-03-30T10:54:03.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-100.png">
       <PackagePath>form_icon.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.593</Modified>
+      <Modified>2023-03-30T10:54:03.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-125.png">
       <PackagePath>form_icon.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.673</Modified>
+      <Modified>2023-03-30T10:54:03.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-150.png">
       <PackagePath>form_icon.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.700</Modified>
+      <Modified>2023-03-30T10:54:03.617</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-200.png">
       <PackagePath>form_icon.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.748</Modified>
+      <Modified>2023-03-30T10:54:03.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-400.png">
       <PackagePath>form_icon.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.809</Modified>
+      <Modified>2023-03-30T10:54:03.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-100.png">
       <PackagePath>info_icon.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.713</Modified>
+      <Modified>2023-03-30T10:54:03.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-125.png">
       <PackagePath>info_icon.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.747</Modified>
+      <Modified>2023-03-30T10:54:03.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-150.png">
       <PackagePath>info_icon.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.763</Modified>
+      <Modified>2023-03-30T10:54:03.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-200.png">
       <PackagePath>info_icon.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.805</Modified>
+      <Modified>2023-03-30T10:54:03.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-400.png">
       <PackagePath>info_icon.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.854</Modified>
+      <Modified>2023-03-30T10:54:03.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-100.png">
       <PackagePath>logout_icon.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.420</Modified>
+      <Modified>2023-03-30T10:54:03.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-125.png">
       <PackagePath>logout_icon.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.426</Modified>
+      <Modified>2023-03-30T10:54:03.567</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-150.png">
       <PackagePath>logout_icon.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.432</Modified>
+      <Modified>2023-03-30T10:54:03.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-200.png">
       <PackagePath>logout_icon.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.450</Modified>
+      <Modified>2023-03-30T10:54:03.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-400.png">
       <PackagePath>logout_icon.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.485</Modified>
+      <Modified>2023-03-30T10:54:03.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\minus_icon.scale-100.png">
+      <PackagePath>minus_icon.scale-100.png</PackagePath>
+      <Modified>2023-03-30T10:39:21.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\minus_icon.scale-125.png">
+      <PackagePath>minus_icon.scale-125.png</PackagePath>
+      <Modified>2023-03-30T10:53:56.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\minus_icon.scale-150.png">
+      <PackagePath>minus_icon.scale-150.png</PackagePath>
+      <Modified>2023-03-30T10:53:56.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\minus_icon.scale-200.png">
+      <PackagePath>minus_icon.scale-200.png</PackagePath>
+      <Modified>2023-03-30T10:53:56.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\minus_icon.scale-400.png">
+      <PackagePath>minus_icon.scale-400.png</PackagePath>
+      <Modified>2023-03-30T10:53:56.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-100.png">
       <PackagePath>preference_icon.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.504</Modified>
+      <Modified>2023-03-30T10:54:03.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-125.png">
       <PackagePath>preference_icon.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.516</Modified>
+      <Modified>2023-03-30T10:54:03.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-150.png">
       <PackagePath>preference_icon.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.518</Modified>
+      <Modified>2023-03-30T10:54:03.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-200.png">
       <PackagePath>preference_icon.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.537</Modified>
+      <Modified>2023-03-30T10:54:03.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-400.png">
       <PackagePath>preference_icon.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.549</Modified>
+      <Modified>2023-03-30T10:54:03.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-100.png">
       <PackagePath>reference_icon.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.575</Modified>
+      <Modified>2023-03-30T10:54:03.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-125.png">
       <PackagePath>reference_icon.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.649</Modified>
+      <Modified>2023-03-30T10:54:03.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-150.png">
       <PackagePath>reference_icon.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.699</Modified>
+      <Modified>2023-03-30T10:54:03.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-200.png">
       <PackagePath>reference_icon.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.700</Modified>
+      <Modified>2023-03-30T10:54:03.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-400.png">
       <PackagePath>reference_icon.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.762</Modified>
+      <Modified>2023-03-30T10:54:03.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-100.png">
       <PackagePath>refresh_icon.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.651</Modified>
+      <Modified>2023-03-30T10:54:03.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-125.png">
       <PackagePath>refresh_icon.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.699</Modified>
+      <Modified>2023-03-30T10:54:03.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-150.png">
       <PackagePath>refresh_icon.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.712</Modified>
+      <Modified>2023-03-30T10:54:03.561</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-200.png">
       <PackagePath>refresh_icon.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.748</Modified>
+      <Modified>2023-03-30T10:54:03.563</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-400.png">
       <PackagePath>refresh_icon.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.805</Modified>
+      <Modified>2023-03-30T10:54:03.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-100.png">
       <PackagePath>status_icon.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.747</Modified>
+      <Modified>2023-03-30T10:54:03.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-125.png">
       <PackagePath>status_icon.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.763</Modified>
+      <Modified>2023-03-30T10:54:03.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-150.png">
       <PackagePath>status_icon.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.826</Modified>
+      <Modified>2023-03-30T10:54:03.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-200.png">
       <PackagePath>status_icon.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.853</Modified>
+      <Modified>2023-03-30T10:54:03.571</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-400.png">
       <PackagePath>status_icon.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.909</Modified>
+      <Modified>2023-03-30T10:54:03.575</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-100.png">
       <PackagePath>status_icon_one.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.537</Modified>
+      <Modified>2023-03-30T10:54:03.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-125.png">
       <PackagePath>status_icon_one.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.545</Modified>
+      <Modified>2023-03-30T10:54:03.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-150.png">
       <PackagePath>status_icon_one.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.547</Modified>
+      <Modified>2023-03-30T10:54:03.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-200.png">
       <PackagePath>status_icon_one.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.572</Modified>
+      <Modified>2023-03-30T10:54:03.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-400.png">
       <PackagePath>status_icon_one.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.617</Modified>
+      <Modified>2023-03-30T10:54:03.591</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-100.png">
       <PackagePath>support_icon.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.656</Modified>
+      <Modified>2023-03-30T10:54:03.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-125.png">
       <PackagePath>support_icon.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.700</Modified>
+      <Modified>2023-03-30T10:54:03.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-150.png">
       <PackagePath>support_icon.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.734</Modified>
+      <Modified>2023-03-30T10:54:03.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-200.png">
       <PackagePath>support_icon.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.738</Modified>
+      <Modified>2023-03-30T10:54:03.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-400.png">
       <PackagePath>support_icon.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.791</Modified>
+      <Modified>2023-03-30T10:54:03.600</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-100.png">
       <PackagePath>sync_icon.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.682</Modified>
+      <Modified>2023-03-30T10:54:03.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-125.png">
       <PackagePath>sync_icon.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.683</Modified>
+      <Modified>2023-03-30T10:54:03.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-150.png">
       <PackagePath>sync_icon.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.685</Modified>
+      <Modified>2023-03-30T10:54:03.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-200.png">
       <PackagePath>sync_icon.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.737</Modified>
+      <Modified>2023-03-30T10:54:03.610</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-400.png">
       <PackagePath>sync_icon.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.764</Modified>
+      <Modified>2023-03-30T10:54:03.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-100.png">
       <PackagePath>tick_icon.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.834</Modified>
+      <Modified>2023-03-30T10:54:03.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-125.png">
       <PackagePath>tick_icon.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.854</Modified>
+      <Modified>2023-03-30T10:54:03.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-150.png">
       <PackagePath>tick_icon.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.907</Modified>
+      <Modified>2023-03-30T10:54:03.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-200.png">
       <PackagePath>tick_icon.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.915</Modified>
+      <Modified>2023-03-30T10:54:03.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-400.png">
       <PackagePath>tick_icon.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.922</Modified>
+      <Modified>2023-03-30T10:54:03.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-100.png">
       <PackagePath>time_icon.scale-100.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.712</Modified>
+      <Modified>2023-03-30T10:54:03.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-125.png">
       <PackagePath>time_icon.scale-125.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.713</Modified>
+      <Modified>2023-03-30T10:54:03.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-150.png">
       <PackagePath>time_icon.scale-150.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.716</Modified>
+      <Modified>2023-03-30T10:54:03.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-200.png">
       <PackagePath>time_icon.scale-200.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.762</Modified>
+      <Modified>2023-03-30T10:54:03.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-400.png">
       <PackagePath>time_icon.scale-400.png</PackagePath>
-      <Modified>2023-03-30T06:34:53.790</Modified>
+      <Modified>2023-03-30T10:54:03.664</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

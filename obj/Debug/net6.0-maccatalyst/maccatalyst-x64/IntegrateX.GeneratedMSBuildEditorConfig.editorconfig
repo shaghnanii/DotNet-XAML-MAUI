@@ -10,6 +10,12 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IntegrateX
 build_property.ProjectDir = D:\SignupSol\IntegrateX\IntegrateX\
 
+[D:/SignupSol/IntegrateX/IntegrateX/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
+
 [D:/SignupSol/IntegrateX/IntegrateX/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.App.xaml
@@ -39,3 +45,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/SignupSol/IntegrateX/IntegrateX/TabPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.TabPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TabPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TabPage.xaml
