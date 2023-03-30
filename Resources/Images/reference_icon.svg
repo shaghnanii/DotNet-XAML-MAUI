@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="reference-icon" transform="translate(-748 -314)">
+    <g id="message-text" transform="translate(748 314)">
+      <path id="Vector" d="M9.333,0H4Q0,0,0,4v8.667a.669.669,0,0,0,.667.667H9.333q4,0,4-4V4Q13.333,0,9.333,0Z" transform="translate(1.333 1.333)" fill="none" stroke="#5ab9ea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <g id="Group" transform="translate(4.667 6.333)">
+        <path id="Vector-2" data-name="Vector" d="M0,0H6.667" fill="#fff" stroke="#5ab9ea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Vector-3" data-name="Vector" d="M0,0H4.667" transform="translate(0 3.333)" fill="#fff" stroke="#5ab9ea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <path id="Vector-4" data-name="Vector" d="M0,0H16V16H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

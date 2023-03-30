@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="87.335" height="88.017" viewBox="0 0 87.335 88.017">
+  <g id="logout-icon" transform="translate(-646.665 -337.156)">
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M36,87.017a3.135,3.135,0,0,1-.559-.05L2.6,81.116A3.143,3.143,0,0,1,0,78.02V6.049A3.129,3.129,0,0,1,2.869,2.917L35.717.013C35.809,0,35.9,0,36,0a3.143,3.143,0,0,1,3.14,3.145V83.874A3.147,3.147,0,0,1,36,87.017ZM30.528,39.208c-1.35,0-2.449,1.929-2.449,4.3s1.1,4.3,2.449,4.3,2.451-1.93,2.451-4.3S31.88,39.208,30.528,39.208Z" transform="translate(647.165 337.656)" fill="#5ab9ea" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" opacity="0.4"/>
+    <path id="Path_36" data-name="Path 36" d="M317.559,169.238l-25.674-19.063v9.89H271.938v18.229h19.947v9.887Z" transform="translate(416.441 210.241)" fill="#5ab9ea"/>
+    <path id="Path_38" data-name="Path 38" d="M289.649,45.463v-24.6a2.451,2.451,0,0,0-2.446-2.452H271.937v4.9h12.814V45.463Z" transform="translate(416.442 322.039)" fill="#5ab9ea" opacity="0.4"/>
+    <path id="Path_39" data-name="Path 39" d="M271.937,379.009v4.9H287.2a2.452,2.452,0,0,0,2.446-2.452V353.215h-4.9v25.794Z" transform="translate(416.442 37.973)" fill="#5ab9ea" opacity="0.4"/>
+  </g>
+</svg>
