@@ -1,4 +1,6 @@
-﻿namespace IntegrateX;
+﻿using Microsoft.Maui.Controls;
+
+namespace IntegrateX;
 
 public static class MauiProgram
 {
@@ -25,6 +27,8 @@ public static class MauiProgram
 				fonts.AddFont("Roboto-Thin.ttf", "RobotoThin");
 				fonts.AddFont("Roboto-ThinItalic.ttf", "RobotoThinItalic");
 			});
+		//builder.UseMauiApp<App>()
+		//	.Usesharp
 
 		return builder.Build();
 	}

@@ -1,8 +1,9 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="IntegrateX.MainPage"
-             Title="Shakil Ahmad Khan">
-    <VerticalStackLayout BackgroundColor="#FFFFFF">
+             x:Class="IntegrateX.MainPage">
+
+    <VerticalStackLayout BackgroundColor="#fff">
+        <!--Top Nav bar starts here-->
         <Grid ColumnDefinitions=".50*, .50*" Padding="10" BackgroundColor="#5AB9EA" HeightRequest="60">
             <HorizontalStackLayout>
                 <Image Source="back_arrow.png" HeightRequest="20" Margin="10"/>
@@ -57,8 +58,15 @@
                         </Border>
                     </HorizontalStackLayout>
                 </Border>
-                
-                <Button FontFamily="RobotoRegular" Text="New Integrations" HeightRequest="40" BackgroundColor="#5AB9EA" BorderColor="#ffffff" TextColor="#ffffff" CornerRadius="20" WidthRequest="150" />
+
+                <Button FontFamily="RobotoRegular"
+                        Text="New Integrations"
+                        HeightRequest="38"
+                        BackgroundColor="#5AB9EA"
+                        BorderColor="#ffffff"
+                        TextColor="#ffffff"
+                        CornerRadius="20"
+                        WidthRequest="150" />
                 <ImageButton Source="minus_icon.png"
                              BackgroundColor="#5AB9EA"
                              WidthRequest="40"
@@ -69,7 +77,7 @@
                              CornerRadius="20"
                              HorizontalOptions="Center"
                              VerticalOptions="Center" />
-                
+
                 <ImageButton Source="cross_icon.png"
                              BackgroundColor="#FFFFFF"
                              WidthRequest="40"
@@ -80,8 +88,9 @@
                              VerticalOptions="Center" />
             </HorizontalStackLayout>
         </Grid>
-        
-        <!--Second Tab-->
+        <!--Top Navbar Ends Here-->
+
+        <!--Second Button Tab Start Here-->
         <Grid ColumnDefinitions=".50*, .50*" Padding="10" HeightRequest="80">
             <HorizontalStackLayout Spacing="10">
                 <Button FontFamily="RobotoRegular"
@@ -91,13 +100,40 @@
                         TextColor="#FFFFFF"
                         CornerRadius="20"
                         WidthRequest="150" />
-                <Button FontFamily="RobotoRegular" Text="Clear Indicators" HeightRequest="40" BackgroundColor="#FFFFFF" BorderColor="#5AB9EA" TextColor="#5AB9EA" CornerRadius="20" WidthRequest="150" />
-                <Button FontFamily="RobotoRegular" Text="Indicate All" HeightRequest="40" BackgroundColor="#FFFFFF" BorderColor="#5AB9EA" TextColor="#5AB9EA" CornerRadius="20" WidthRequest="150" />
+                <Button FontFamily="RobotoRegular"
+                        Text="Clear Indicators"
+                        HeightRequest="39"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="#5AB9EA" 
+                        TextColor="#5AB9EA"
+                        CornerRadius="20"
+                        WidthRequest="150" />
+                <Button FontFamily="RobotoRegular"
+                        Text="Indicate All"
+                        HeightRequest="39"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="#5AB9EA"
+                        TextColor="#5AB9EA"
+                        CornerRadius="20"
+                        WidthRequest="150" />
             </HorizontalStackLayout>
 
             <HorizontalStackLayout Spacing="10" Grid.Column="1" HorizontalOptions="End">
-                <Button FontFamily="RobotoRegular" Text="Tutorial" HeightRequest="40" BorderColor="#5AB9EA" TextColor="#5AB9EA" CornerRadius="20" WidthRequest="150" />
-                <Button FontFamily="RobotoRegular" Text="Preference" HeightRequest="40" BackgroundColor="#5AB9EA" BorderColor="#ffffff" TextColor="#ffffff" CornerRadius="20" WidthRequest="150" />
+                <Button FontFamily="RobotoRegular"
+                        Text="Tutorial"
+                        HeightRequest="39"
+                        BorderColor="#5AB9EA"
+                        TextColor="#5AB9EA"
+                        CornerRadius="20"
+                        WidthRequest="150" />
+                <Button FontFamily="RobotoRegular"
+                        Text="Preference"
+                        HeightRequest="40"
+                        BackgroundColor="#5AB9EA"
+                        BorderColor="#ffffff"
+                        TextColor="#ffffff"
+                        CornerRadius="20"
+                        WidthRequest="150" />
                 <ImageButton Source="support_icon.png"
                              BackgroundColor="#181F3C"
                              WidthRequest="40"
@@ -108,8 +144,215 @@
                              VerticalOptions="Center" />
             </HorizontalStackLayout>
         </Grid>
+        <!--Second Button Tab Ends Here-->
 
+        <Grid ColumnDefinitions=".16*, .16*" HeightRequest="50" HorizontalOptions="Center">
+            <HorizontalStackLayout Margin="0,0,0,0" Spacing="50" HorizontalOptions="Center">
+
+                <VerticalStackLayout WidthRequest="100" HorizontalOptions="Center">
+                    <Label HorizontalOptions="Center"
+                           Margin="0,0,0,6"
+                           TextColor="#5AB9EA"
+                           Text="All"
+                           FontFamily="Harabara"
+                           FontSize="16"/>
+                    <BoxView Color="#5AB9EA"
+                             CornerRadius="0"
+                             HeightRequest="3" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout WidthRequest="100" HorizontalOptions="Center">
+                    <Label HorizontalOptions="Center"
+                           Margin="0,0,0,6"
+                           TextColor="#666666"
+                           Text="Reservations"
+                           FontFamily="Harabara"
+                           FontSize="16"/>
+                    <BoxView Color="#EEEEEE"
+                             CornerRadius="0"
+                             HeightRequest="3" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout WidthRequest="100" HorizontalOptions="Center">
+                    <Label HorizontalOptions="Center"
+                           Margin="0,0,0,6"
+                           TextColor="#666666"
+                           Text="Check In"
+                           FontFamily="Harabara"
+                           FontSize="16"/>
+                    <BoxView Color="#EEEEEE"
+                             CornerRadius="0"
+                             HeightRequest="3" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout WidthRequest="100" HorizontalOptions="Center">
+                    <Label HorizontalOptions="Center"
+                           Margin="0,0,0,6"
+                           TextColor="#666666"
+                           Text="Billing Details"
+                           FontFamily="Harabara"
+                           FontSize="16"/>
+                    <BoxView Color="#EEEEEE"
+                             CornerRadius="0"
+                             HeightRequest="3" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout WidthRequest="100" HorizontalOptions="Center">
+                    <Label HorizontalOptions="Center"
+                           Margin="0,0,0,6"
+                           TextColor="#666666"
+                           Text="Check Out"
+                           FontFamily="Harabara"
+                           FontSize="16"/>
+                    <BoxView Color="#EEEEEE"
+                             CornerRadius="0"
+                             HeightRequest="3" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout WidthRequest="100" HorizontalOptions="Center">
+                    <Label HorizontalOptions="Center"
+                           Margin="0,0,0,6"
+                           TextColor="#666666"
+                           Text="History"
+                           FontFamily="Harabara"
+                           FontSize="16"/>
+                    <BoxView Color="#EEEEEE"
+                             CornerRadius="0"
+                             HeightRequest="3" />
+                </VerticalStackLayout>
+
+
+            </HorizontalStackLayout>
+        </Grid>
+
+        <Grid ColumnDefinitions=".25*, .25*" HeightRequest="30" HorizontalOptions="CenterAndExpand">
+            <VerticalStackLayout HorizontalOptions="CenterAndExpand">
+                <HorizontalStackLayout Spacing="200">
+                    <HorizontalStackLayout>
+                        <Image Source="reference_icon.png" Margin="0,2,0,0" />
+                        <Label Text="Reference Number" Margin="5,0,0,0" TextColor="#5AB9EA" />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout>
+                        <Image Source="form_icon.png" Margin="0,2,0,0" />
+                        <Label Text="Form / Entity" Margin="5,0,0,0" TextColor="#5AB9EA" />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout>
+                        <Image Source="time_icon.png" Margin="0,2,0,0" />
+                        <Label Text="Time" Margin="5,0,0,0" TextColor="#5AB9EA" />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout>
+                        <Image Source="sync_icon.png" Margin="0,2,0,0" />
+                        <Label Text="Sync" Margin="5,0,0,0" TextColor="#5AB9EA" />
+                    </HorizontalStackLayout>
+                </HorizontalStackLayout>
+
+                <StackLayout Margin="20">
+                    <Frame BorderColor="Gray"
+                           CornerRadius="5"
+                           BackgroundColor="White"
+                           Padding="5">
+                        <StackLayout Orientation="Horizontal"
+                                     Padding="8"
+                                     HorizontalOptions="Center"
+                                     Spacing="220">
+                            <Label Text="10458"
+                                   FontSize="12"
+                                   FontFamily="RobotoRegular"
+                                   TextColor="Black"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Start" />
+                            <Label Text="Check Out"
+                                   FontFamily="RobotoRegular"
+                                   FontSize="12"
+                                   TextColor="Black"
+                                   VerticalOptions="Center" />
+                            <Label Text="03/15/2023 06:16:54"
+                                   FontFamily="RobotoRegular"
+                                   FontSize="12"
+                                   TextColor="Black"
+                                   VerticalOptions="Center" />
+                            <Image Source="form_icon.png" />
+                        </StackLayout>
+                    </Frame>
+                    <Frame BorderColor="Gray"
+                           BackgroundColor="White"
+                           CornerRadius="5"
+                           Padding="5">
+                        <StackLayout Orientation="Horizontal"
+                                     Padding="8"
+                                     HorizontalOptions="Center"
+                                     Spacing="220">
+                            <Label Text="10458"
+                                   FontFamily="RobotoRegular"
+                                   FontSize="12"
+                                   TextColor="Black"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Start" />
+                            <Label Text="Reservations"
+                                   FontFamily="RobotoRegular"
+                                   FontSize="12"
+                                   TextColor="Black"
+                                   VerticalOptions="Center" />
+                            <Label Text="03/15/2023 06:16:54"
+                                   FontFamily="RobotoRegular"
+                                   FontSize="12"
+                                   TextColor="Black"
+                                   VerticalOptions="Center" />
+                            <Image Source="form_icon.png" />
+                        </StackLayout>
+                    </Frame>
+                    <Frame BorderColor="Gray"
+                           BackgroundColor="White"
+                           CornerRadius="5"
+                           Padding="5">
+                        <StackLayout Orientation="Horizontal"
+                                     HorizontalOptions="Center"
+                                     Padding="8"
+                                     Spacing="220">
+                            <Label Text="10458"
+                                   FontFamily="RobotoRegular"
+                                   FontSize="12"
+                                   TextColor="Black"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Start" />
+                            <Label Text="Check In"
+                                   FontFamily="RobotoRegular"
+                                   FontSize="12"
+                                   TextColor="Black"
+                                   VerticalOptions="Center" />
+                            <Label Text="03/15/2023 06:16:54"
+                                   FontFamily="RobotoRegular"
+                                   FontSize="12"
+                                   TextColor="Black"
+                                   VerticalOptions="Center" />
+                            <Image Source="form_icon.png" />
+                        </StackLayout>
+
+                    </Frame>
+                </StackLayout>
+
+            </VerticalStackLayout>
+        </Grid>
+
+
+        <!--<StackLayout Margin="20">
+            <Grid Padding="10" ColumnDefinitions=".20*, .20*, .2">
+                <Image Grid.RowSpan="2" 
+                               Source="form_icon.png" 
+                               Aspect="AspectFill"
+                               HeightRequest="60" 
+                               WidthRequest="60" />
+                <Label Grid.Column="1" 
+                       TextColor="Red"
+                               Text="NAME HERE" 
+                               FontAttributes="Bold" />
+                <Label Grid.Column="2"
+                       TextColor="Red"
+                               Text="Location Here"
+                               FontAttributes="Italic" />
+            </Grid>
+        </StackLayout>-->
 
     </VerticalStackLayout>
-    
+
 </ContentPage>

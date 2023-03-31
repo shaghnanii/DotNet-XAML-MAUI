@@ -1,0 +1,1 @@
+D:\SignupSol\IntegrateX\IntegrateX\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppPackages\IntegrateX_1.0.0.0_Debug_Test\IntegrateX_1.0.0.0_x86_Debug.msix

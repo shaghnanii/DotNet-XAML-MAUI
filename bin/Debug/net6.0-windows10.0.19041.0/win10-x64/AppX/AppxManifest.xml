@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="072d687c-ad3b-4a19-b2c0-d13dce42a520" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
+  <Identity Name="072d687c-ad3b-4a19-b2c0-d13dce42a520" Publisher="CN=User Name" Version="1.0.0.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="F7AC3873-0DFE-42CB-8123-01C41FD63F03" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>IntegrateX</DisplayName>
