@@ -294,7 +294,7 @@
 
         <BoxView Margin="20,20,20,20" HeightRequest="1" BackgroundColor="Black"></BoxView>
 
-        <Grid Padding="30" ColumnSpacing="30" RowDefinitions="100*" ColumnDefinitions="100,90,*">
+        <Grid Padding="40,0,20,0" ColumnSpacing="30" RowDefinitions="100*" ColumnDefinitions="100,90,*">
             <Button FontFamily="RobotoRegular"
                     Text="Test Connection"
                     HeightRequest="39"
