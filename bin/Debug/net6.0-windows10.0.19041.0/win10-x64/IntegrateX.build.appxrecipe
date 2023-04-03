@@ -1105,6 +1105,9 @@
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-400.png">
       <PackagePath>back_arrow.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\banner.scale-100.png">
+      <PackagePath>banner.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_icon.scale-100.png">
       <PackagePath>cross_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>

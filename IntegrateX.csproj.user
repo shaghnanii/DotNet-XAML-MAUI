@@ -17,6 +17,9 @@
     <MauiXaml Update="AboutPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="LoginPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="TabPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

@@ -27,7 +27,6 @@
                         TextColor="#5AB9EA"
                         CornerRadius="20"
                         WidthRequest="150" />-->
-
                 <Border WidthRequest="150"
                         HeightRequest="40"
                         Stroke="{AppThemeBinding Light='#5AB9EA', Dark='#5AB9EA'}"
@@ -50,7 +49,8 @@
                                 Padding="0,0,2,0"
                                 StrokeShape="RoundRectangle 13"
                                 BackgroundColor="#5AB9EA" >
-                            <Label Text="4"
+                            <Label Text="0"
+                                   x:Name="NewOrders"
                                    HorizontalOptions="Center"
                                    VerticalOptions="Center"
                                    FontAttributes="Bold"
@@ -61,6 +61,8 @@
 
                 <Button FontFamily="RobotoRegular"
                         Text="New Integrations"
+                        x:Name="CounterBtn"
+                        Clicked="OnCounterClicked"
                         HeightRequest="38"
                         BackgroundColor="#5AB9EA"
                         BorderColor="#ffffff"
@@ -81,6 +83,8 @@
                 <ImageButton Source="cross_icon.png"
                              BackgroundColor="#FFFFFF"
                              WidthRequest="40"
+                             x:Name="CloseBtn"
+                             Clicked="OnCloseClicked"
                              HeightRequest="40"
                              Padding="14"
                              CornerRadius="20"

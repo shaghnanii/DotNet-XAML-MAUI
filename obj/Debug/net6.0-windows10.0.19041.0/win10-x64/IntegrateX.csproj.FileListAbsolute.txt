@@ -483,3 +483,4 @@ D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x6
 D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\minus_icon.scale-150.png
 D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\minus_icon.scale-200.png
 D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\minus_icon.scale-400.png
+D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\banner.scale-100.png

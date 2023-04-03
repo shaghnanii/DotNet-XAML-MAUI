@@ -11,4 +11,9 @@
                   Route="MainPage" />
 
 
+    <ShellContent Title="LoginPage"
+                  ContentTemplate="{DataTemplate local:LoginPage}"
+                  Route="LoginPage" />
+
+
 </Shell>
