@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+               CanBeDismissedByTappingOutsideOfPopup="False"
+               x:Class="IntegrateX.VerifyIdentityModalPage">
+    <Frame BackgroundColor="#FFFFFF" HeightRequest="400" HasShadow="True" WidthRequest="400" CornerRadius="0" BorderColor="Transparent">
+        <VerticalStackLayout Padding="40">
+            <Label Margin="0,0,0,0"
+                       Text="Verify Identity"
+                       FontSize="25"
+                       FontFamily="RobotoMedium"
+                       TextColor="#000000" />
+
+            <Label Text="Email / Username"
+                       TextColor="#000000"
+                       Margin="0,20,0,0"
+                       FontFamily="RobotoRegular" />
+
+            <Border Stroke="#E1E5EA" BackgroundColor="Transparent" Padding="8" Margin="0,8,0,0">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="30,30,30,30" />
+                </Border.StrokeShape>
+                <Entry x:Name="entry"
+                       TextColor="#000000"
+                       Keyboard="Email"
+                       CharacterSpacing="0"
+                       FontFamily="RobotoRegular"
+                       ClearButtonVisibility="WhileEditing"
+                       PlaceholderColor="#C6C6C6"
+                       Placeholder="Email / Username"/>
+            </Border>
+
+            <Label Text="Password"
+                       TextColor="#000000"
+                       Margin="0,20,0,0"
+                       FontFamily="RobotoRegular" />
+
+            <Border Stroke="#E1E5EA" BackgroundColor="Transparent" Padding="8" Margin="0,8,0,0">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="30,30,30,30" />
+                </Border.StrokeShape>
+                <Entry x:Name="password"
+                       TextColor="#000000"
+                       Keyboard="Email"
+                       CharacterSpacing="0"
+                       IsPassword="True"
+                       FontFamily="RobotoRegular"
+                       ClearButtonVisibility="WhileEditing"
+                       PlaceholderColor="#C6C6C6"
+                       Placeholder="Password"/>
+            </Border>
+
+            <Grid RowDefinitions="100*" Margin="0,14,0,0">
+                <Button FontFamily="RobotoRegular"
+                        Text="Login"
+                        BackgroundColor="#5AB9EA"
+                        HeightRequest="40"
+                        x:Name="VerifyLoginBtn"
+                        Clicked="OpenNotificationIntervalsPage"
+                        HorizontalOptions="Start"
+                        TextColor="#FFFFFF"
+                        CornerRadius="20"
+                        WidthRequest="110" />
+
+                <Button FontFamily="RobotoRegular"
+                        Text="Cancel"
+                        BorderColor="#BDC3CB"
+                        BackgroundColor="Transparent"
+                        HeightRequest="40"
+                        x:Name="VerifyCancelBtn"
+                        Clicked="CloseVerifyModal"
+                        Grid.Column="1"
+                        TextColor="#B0B7C1"
+                        HorizontalOptions="EndAndExpand"
+                        CornerRadius="20"
+                        WidthRequest="110" />
+            </Grid>
+        </VerticalStackLayout>
+    </Frame>
+</toolkit:Popup>

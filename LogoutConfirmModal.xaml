@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+               CanBeDismissedByTappingOutsideOfPopup="False"
+               x:Class="IntegrateX.LogoutConfirmModal">
+    <Frame BackgroundColor="#FFFFFF" HeightRequest="200" HasShadow="True" WidthRequest="400" CornerRadius="0" BorderColor="Transparent">
+        <VerticalStackLayout Padding="40,10,40,0">
+            <Image Source="logout_icon.png"
+                   HeightRequest="40"
+                   WidthRequest="40"
+                   HorizontalOptions="Center"
+                   Aspect="AspectFit" />
+            
+            <Label Text="Are you sure, want to logout?"
+                   TextColor="#000000"
+                   Margin="0,20,0,0"
+                   HorizontalOptions="Center"
+                   FontFamily="RobotoRegular" />
+            
+            <Grid RowDefinitions="100*" Margin="0,14,0,0">
+                <Button FontFamily="RobotoRegular"
+                        Text="Confirm"
+                        BackgroundColor="#5AB9EA"
+                        HeightRequest="40"
+                        x:Name="LogoutModalConfirmBtn"
+                        Clicked="CloseAndGotoLoginPage"
+                        HorizontalOptions="Start"
+                        TextColor="#FFFFFF"
+                        CornerRadius="20"
+                        WidthRequest="110" />
+
+                <Button FontFamily="RobotoRegular"
+                        Text="Cancel"
+                        BorderColor="#BDC3CB"
+                        BackgroundColor="Transparent"
+                        HeightRequest="40"
+                        x:Name="LogoutModalCancelBtn"
+                        Clicked="CloseLogoutConfirmModal"
+                        Grid.Column="1"
+                        TextColor="#B0B7C1"
+                        HorizontalOptions="EndAndExpand"
+                        CornerRadius="20"
+                        WidthRequest="110" />
+            </Grid>
+        </VerticalStackLayout>
+    </Frame>
+</toolkit:Popup>

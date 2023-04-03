@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="IntegrateX.LoginPage"
              Title="LoginPage">
-    <Grid Background="Transparent" RowDefinitions="*" ColumnDefinitions="90*,49*">
+    <Grid Background="Transparent" RowDefinitions="100*" ColumnDefinitions="100*,430">
         <VerticalStackLayout BackgroundColor="#FFFFFF" Padding="20">
             <Grid RowDefinitions="100*" >
                 <Label TextColor="#5AB9EA"

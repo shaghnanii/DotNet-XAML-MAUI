@@ -1,4 +1,3 @@
-Harabara Mais Demo.otf
 Harabara.otf
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
@@ -6,12 +5,6 @@ Roboto-Black.ttf
 Roboto-BlackItalic.ttf
 Roboto-Bold.ttf
 Roboto-BoldItalic.ttf
-RobotoCondensed-Bold.ttf
-RobotoCondensed-BoldItalic.ttf
-RobotoCondensed-Italic.ttf
-RobotoCondensed-Light.ttf
-RobotoCondensed-LightItalic.ttf
-RobotoCondensed-Regular.ttf
 Roboto-Italic.ttf
 Roboto-Light.ttf
 Roboto-LightItalic.ttf
@@ -93,10 +86,6 @@ back_arrow.scale-200.png
 back_arrow.scale-400.png
 banner.scale-100.png
 cross_icon.scale-100.png
-cross_icon.scale-125.png
-cross_icon.scale-150.png
-cross_icon.scale-200.png
-cross_icon.scale-400.png
 delete_icon.scale-100.png
 delete_icon.scale-125.png
 delete_icon.scale-150.png
@@ -128,10 +117,6 @@ logout_icon.scale-150.png
 logout_icon.scale-200.png
 logout_icon.scale-400.png
 minus_icon.scale-100.png
-minus_icon.scale-125.png
-minus_icon.scale-150.png
-minus_icon.scale-200.png
-minus_icon.scale-400.png
 preference_icon.scale-100.png
 preference_icon.scale-125.png
 preference_icon.scale-150.png
@@ -142,6 +127,11 @@ reference_icon.scale-125.png
 reference_icon.scale-150.png
 reference_icon.scale-200.png
 reference_icon.scale-400.png
+refresh_blue_icon.scale-100.png
+refresh_blue_icon.scale-125.png
+refresh_blue_icon.scale-150.png
+refresh_blue_icon.scale-200.png
+refresh_blue_icon.scale-400.png
 refresh_icon.scale-100.png
 refresh_icon.scale-125.png
 refresh_icon.scale-150.png

@@ -132,6 +132,8 @@
                         WidthRequest="150" />
                 <Button FontFamily="RobotoRegular"
                         Text="Preference"
+                        x:Name="PreferenceBtn"
+                        Clicked="OpenVerifyIdentityModal"
                         HeightRequest="40"
                         BackgroundColor="#5AB9EA"
                         BorderColor="#ffffff"
@@ -141,6 +143,7 @@
                 <ImageButton Source="support_icon.png"
                              BackgroundColor="#181F3C"
                              WidthRequest="40"
+                             Clicked="GotoTestPage"
                              HeightRequest="40"
                              Padding="10"
                              CornerRadius="20"
@@ -413,7 +416,7 @@
 
             <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
                 <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="0,0,30,30" />
+                    <RoundRectangle CornerRadius="0,0,0,0" />
                 </Border.StrokeShape>
                 <Frame BackgroundColor="Transparent" BorderColor="Transparent">
                     <Grid Padding="0">
@@ -446,8 +449,173 @@
                                VerticalOptions="Center" 
                                Grid.Column="2" />
                         <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
-                            <Image Source="arrow_right.png" WidthRequest="24" Margin="10,0,10,0"/>
+                            <Image Source="arrow_left.png" WidthRequest="24" Margin="10,0,10,0"/>
                             <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                        </HorizontalStackLayout>
+                    </Grid>
+                </Frame>
+            </Border>
+
+            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="0,0,0,0" />
+                </Border.StrokeShape>
+                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                    <Grid Padding="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="10991"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="0" />
+                        <Label Text="Check Ins"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="1" />
+                        <Label Text="09/28/2023 06:36:59"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center" 
+                               Grid.Column="2" />
+                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                            <Image Source="arrow_left.png" WidthRequest="24" Margin="10,0,10,0"/>
+                        </HorizontalStackLayout>
+                    </Grid>
+                </Frame>
+            </Border>
+
+            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="0,0,0,0" />
+                </Border.StrokeShape>
+                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                    <Grid Padding="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="10992"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="0" />
+                        <Label Text="Check Ins"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="1" />
+                        <Label Text="09/28/2023 06:36:59"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center" 
+                               Grid.Column="2" />
+                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                            <Image Source="refresh_blue_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                        </HorizontalStackLayout>
+                    </Grid>
+                </Frame>
+            </Border>
+
+            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="0,0,0,0" />
+                </Border.StrokeShape>
+                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                    <Grid Padding="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="10993"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="0" />
+                        <Label Text="Check Ins"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="1" />
+                        <Label Text="09/28/2023 06:36:59"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center" 
+                               Grid.Column="2" />
+                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                            <Label Text="Pending" TextColor="#CCCCCC" />
+                            <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                        </HorizontalStackLayout>
+                    </Grid>
+                </Frame>
+            </Border>
+
+            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="0,0,30,30" />
+                </Border.StrokeShape>
+                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                    <Grid Padding="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="10994"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="0" />
+                        <Label Text="Check Ins"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="1" />
+                        <Label Text="09/28/2023 06:36:59"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center" 
+                               Grid.Column="2" />
+                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                            <Image Source="arrow_left.png" WidthRequest="24" Margin="10,0,10,0"/>
                         </HorizontalStackLayout>
                     </Grid>
                 </Frame>

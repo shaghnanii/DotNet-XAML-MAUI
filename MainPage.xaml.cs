@@ -1,4 +1,6 @@
-﻿namespace IntegrateX;
+﻿using CommunityToolkit.Maui.Views;
+
+namespace IntegrateX;
 
 public partial class MainPage : ContentPage
 {
@@ -26,7 +28,17 @@ public partial class MainPage : ContentPage
 
 	private async void OnCloseClicked(object sender, EventArgs e)
 	{
-		await Shell.Current.GoToAsync("//LoginPage");
+        this.ShowPopup(new LogoutConfirmModal());
+    }
+
+	private void OpenVerifyIdentityModal(object sender, EventArgs e)
+	{
+		this.ShowPopup(new VerifyIdentityModalPage());
+
 	}
+    private async void GotoTestPage(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("//TestPage");
+    }
 }
 
