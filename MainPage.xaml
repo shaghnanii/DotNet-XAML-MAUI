@@ -145,8 +145,7 @@
             </HorizontalStackLayout>
         </Grid>
         <!--Second Button Tab Ends Here-->
-
-        <Grid ColumnDefinitions=".16*, .16*" HeightRequest="50" HorizontalOptions="Center">
+        <Grid ColumnDefinitions=".16*,.16*" HeightRequest="50" HorizontalOptions="Center">
             <HorizontalStackLayout Margin="0,0,0,0" Spacing="50" HorizontalOptions="Center">
 
                 <VerticalStackLayout WidthRequest="100" HorizontalOptions="Center">
@@ -218,140 +217,243 @@
                            FontSize="16"/>
                     <BoxView Color="#EEEEEE"
                              CornerRadius="0"
-                             HeightRequest="3" />
+                             HeightRequest="3"/>
                 </VerticalStackLayout>
 
-
+                
             </HorizontalStackLayout>
         </Grid>
 
-        <Grid ColumnDefinitions=".25*, .25*" HeightRequest="30" HorizontalOptions="CenterAndExpand">
-            <VerticalStackLayout HorizontalOptions="CenterAndExpand">
-                <HorizontalStackLayout Spacing="200">
-                    <HorizontalStackLayout>
-                        <Image Source="reference_icon.png" Margin="0,2,0,0" />
-                        <Label Text="Reference Number" Margin="5,0,0,0" TextColor="#5AB9EA" />
+        <StackLayout Padding="30,0,30,0" Spacing="0">
+            <Frame BackgroundColor="Transparent" BorderColor="Transparent" Padding="0">
+                <Grid Padding="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2.5*" />
+                        <ColumnDefinition Width="2.5*" />
+                        <ColumnDefinition Width="2.5*" />
+                        <ColumnDefinition Width="2.5*" />
+                    </Grid.ColumnDefinitions>
+
+                    <HorizontalStackLayout  Grid.Column="0" >
+                        <Image Source="reference_icon.png" />
+                        <Label Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#5AB9EA"
+                               Text="Reference Number"
+                               VerticalOptions="Center"/>
                     </HorizontalStackLayout>
-                    <HorizontalStackLayout>
-                        <Image Source="form_icon.png" Margin="0,2,0,0" />
-                        <Label Text="Form / Entity" Margin="5,0,0,0" TextColor="#5AB9EA" />
+                    <HorizontalStackLayout Grid.Column="1" >
+                        <Image Source="form_icon.png" />
+                        <Label Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto" 
+                               TextColor="#5AB9EA"
+                               Text="Form/Entity"
+                               VerticalOptions="Center" />
                     </HorizontalStackLayout>
-                    <HorizontalStackLayout>
-                        <Image Source="time_icon.png" Margin="0,2,0,0" />
-                        <Label Text="Time" Margin="5,0,0,0" TextColor="#5AB9EA" />
+                    <HorizontalStackLayout Grid.Column="2">
+                        <Image Source="time_icon.png" />
+                        <Label Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#5AB9EA"
+                               Text="Time"
+                               VerticalOptions="Center" />
                     </HorizontalStackLayout>
-                    <HorizontalStackLayout>
-                        <Image Source="sync_icon.png" Margin="0,2,0,0" />
-                        <Label Text="Sync" Margin="5,0,0,0" TextColor="#5AB9EA" />
+                    <HorizontalStackLayout Grid.Column="3">
+                        <Image Source="sync_icon.png" />
+                        <Label Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#5AB9EA"
+                               Text="Sync"
+                               VerticalOptions="Center" />
                     </HorizontalStackLayout>
-                </HorizontalStackLayout>
 
-                <StackLayout Margin="20">
-                    <Frame BorderColor="Gray"
-                           CornerRadius="5"
-                           BackgroundColor="White"
-                           Padding="5">
-                        <StackLayout Orientation="Horizontal"
-                                     Padding="8"
-                                     HorizontalOptions="Center"
-                                     Spacing="220">
-                            <Label Text="10458"
-                                   FontSize="12"
-                                   FontFamily="RobotoRegular"
-                                   TextColor="Black"
-                                   HorizontalOptions="Center"
-                                   VerticalOptions="Start" />
-                            <Label Text="Check Out"
-                                   FontFamily="RobotoRegular"
-                                   FontSize="12"
-                                   TextColor="Black"
-                                   VerticalOptions="Center" />
-                            <Label Text="03/15/2023 06:16:54"
-                                   FontFamily="RobotoRegular"
-                                   FontSize="12"
-                                   TextColor="Black"
-                                   VerticalOptions="Center" />
-                            <Image Source="form_icon.png" />
-                        </StackLayout>
-                    </Frame>
-                    <Frame BorderColor="Gray"
-                           BackgroundColor="White"
-                           CornerRadius="5"
-                           Padding="5">
-                        <StackLayout Orientation="Horizontal"
-                                     Padding="8"
-                                     HorizontalOptions="Center"
-                                     Spacing="220">
-                            <Label Text="10458"
-                                   FontFamily="RobotoRegular"
-                                   FontSize="12"
-                                   TextColor="Black"
-                                   HorizontalOptions="Center"
-                                   VerticalOptions="Start" />
-                            <Label Text="Reservations"
-                                   FontFamily="RobotoRegular"
-                                   FontSize="12"
-                                   TextColor="Black"
-                                   VerticalOptions="Center" />
-                            <Label Text="03/15/2023 06:16:54"
-                                   FontFamily="RobotoRegular"
-                                   FontSize="12"
-                                   TextColor="Black"
-                                   VerticalOptions="Center" />
-                            <Image Source="form_icon.png" />
-                        </StackLayout>
-                    </Frame>
-                    <Frame BorderColor="Gray"
-                           BackgroundColor="White"
-                           CornerRadius="5"
-                           Padding="5">
-                        <StackLayout Orientation="Horizontal"
-                                     HorizontalOptions="Center"
-                                     Padding="8"
-                                     Spacing="220">
-                            <Label Text="10458"
-                                   FontFamily="RobotoRegular"
-                                   FontSize="12"
-                                   TextColor="Black"
-                                   HorizontalOptions="Center"
-                                   VerticalOptions="Start" />
-                            <Label Text="Check In"
-                                   FontFamily="RobotoRegular"
-                                   FontSize="12"
-                                   TextColor="Black"
-                                   VerticalOptions="Center" />
-                            <Label Text="03/15/2023 06:16:54"
-                                   FontFamily="RobotoRegular"
-                                   FontSize="12"
-                                   TextColor="Black"
-                                   VerticalOptions="Center" />
-                            <Image Source="form_icon.png" />
-                        </StackLayout>
+                    <!--These are the border/spaces between the tables-->
+                    <!--<BoxView BackgroundColor="Gray" WidthRequest="1"  Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView BackgroundColor="Gray" WidthRequest="1"  Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView BackgroundColor="Gray" WidthRequest="1"  Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView BackgroundColor="Gray" WidthRequest="1"  Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />-->
+                </Grid>
+            </Frame>
+            
+            <!--List View Start Here-->
+            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="30,30,0,0" />
+                </Border.StrokeShape>
+                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                    <Grid Padding="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                        </Grid.ColumnDefinitions>
 
-                    </Frame>
-                </StackLayout>
+                        <Label Text="10987"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="0" />
+                        <Label Text="Check Out"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="1" />
+                        <Label Text="03/15/2023 06:15:54"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="2" />
 
-            </VerticalStackLayout>
-        </Grid>
+                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                            <Image Source="arrow_right.png" WidthRequest="24" Margin="10,0,10,0"/>
+                            <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                        </HorizontalStackLayout>
+                    </Grid>
+                </Frame>
+            </Border>
 
 
-        <!--<StackLayout Margin="20">
-            <Grid Padding="10" ColumnDefinitions=".20*, .20*, .2">
-                <Image Grid.RowSpan="2" 
-                               Source="form_icon.png" 
-                               Aspect="AspectFill"
-                               HeightRequest="60" 
-                               WidthRequest="60" />
-                <Label Grid.Column="1" 
-                       TextColor="Red"
-                               Text="NAME HERE" 
-                               FontAttributes="Bold" />
-                <Label Grid.Column="2"
-                       TextColor="Red"
-                               Text="Location Here"
-                               FontAttributes="Italic" />
-            </Grid>
-        </StackLayout>-->
+            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="0,0,0,0" />
+                </Border.StrokeShape>
+                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                    <Grid Padding="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="10988"
+                               Margin="10,0,10,0" 
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="0" />
+                        <Label Text="Reservations"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="1" />
+                        <Label Text="03/30/2023 23:28:54"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="2" />
+                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                            <Image Source="arrow_right.png" WidthRequest="24" Margin="10,0,10,0"/>
+                            <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                        </HorizontalStackLayout>
+                    </Grid>
+                </Frame>
+            </Border>
+
+            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="0,0,0,0" />
+                </Border.StrokeShape>
+                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                    <Grid Padding="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="10989"
+                               Margin="10,0,10,0" 
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="0" />
+                        <Label Text="Bookings"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="1" />
+                        <Label Text="10/18/2023 22:58:54"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="2" />
+                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                            <Image Source="arrow_right.png" WidthRequest="24" Margin="10,0,10,0"/>
+                        </HorizontalStackLayout>
+                    </Grid>
+                </Frame>
+            </Border>
+
+            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="0,0,30,30" />
+                </Border.StrokeShape>
+                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                    <Grid Padding="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="10990"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="0" />
+                        <Label Text="Check Ins"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="1" />
+                        <Label Text="09/28/2023 06:36:59"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center" 
+                               Grid.Column="2" />
+                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                            <Image Source="arrow_right.png" WidthRequest="24" Margin="10,0,10,0"/>
+                            <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                        </HorizontalStackLayout>
+                    </Grid>
+                </Frame>
+            </Border>
+
+
+            <!--List View Ends Here-->
+
+
+        </StackLayout>
 
     </VerticalStackLayout>
 
