@@ -1,0 +1,540 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IntegrateX.MappingPage">
+
+    <VerticalStackLayout BackgroundColor="#fff">
+        <!--Top Nav bar starts here-->
+        <Grid ColumnDefinitions=".50*, .50*" Padding="10" BackgroundColor="#5AB9EA" HeightRequest="60">
+            <HorizontalStackLayout>
+                <Image Source="back_arrow.png" HeightRequest="20" Margin="10"/>
+                <Label Margin="0,7,0,0" FontFamily="Harabara" Text="Servr" FontSize="24"></Label>
+
+                <VerticalStackLayout Margin="20,0,0,0">
+                    <Label Margin="0,0,0,0" FontFamily="RobotoMedium" FontSize="16" FontAttributes="None" Text="Kempinski Jakarta"></Label>
+                    <HorizontalStackLayout Margin="0,0,0,0">
+                        <Label FontFamily="RobotoBold" Margin="0,1,6,0" Text="Last Sync Time: "></Label>
+                        <Label FontFamily="RobotoRegular" Margin="0,0,0,0" Text="2023-03-14 18:36:00"></Label>
+                        <Image Source="refresh_icon.png" HeightRequest="14"  Margin="4,1,0,1"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="15" Grid.Column="1" HorizontalOptions="End">
+                <Border WidthRequest="150"
+                        HeightRequest="40"
+                        Stroke="{AppThemeBinding Light='#5AB9EA', Dark='#5AB9EA'}"
+                        StrokeShape="RoundRectangle 50"
+                        BackgroundColor="#FFFFFF">
+                    <HorizontalStackLayout Padding="0"
+                                   Margin="0"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Center">
+                        <Label VerticalOptions="Center"
+                               Margin="0,0,10,0"
+                               TextColor="#5AB9EA"
+                               Text="New Orders"
+                               SemanticProperties.HeadingLevel="Level1"
+                               FontSize="13" />
+                        <Border WidthRequest="26"
+                                HeightRequest="26"
+                                VerticalOptions="End"
+                                Margin="0,0,0,0"
+                                Padding="0,0,2,0"
+                                StrokeShape="RoundRectangle 13"
+                                BackgroundColor="#5AB9EA" >
+                            <Label Text="0"
+                                   x:Name="NewOrders"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   FontAttributes="Bold"
+                                   FontSize="11" />
+                        </Border>
+                    </HorizontalStackLayout>
+                </Border>
+
+                <Button FontFamily="RobotoRegular"
+                        Text="New Integrations"
+                        x:Name="CounterBtn"
+                        HeightRequest="38"
+                        BackgroundColor="#5AB9EA"
+                        BorderColor="#ffffff"
+                        TextColor="#ffffff"
+                        CornerRadius="20"
+                        WidthRequest="150" />
+                <ImageButton Source="minus_icon.png"
+                             BackgroundColor="#5AB9EA"
+                             WidthRequest="40"
+                             HeightRequest="40"
+                             BorderColor="#FFFFFF"
+                             BorderWidth="2"
+                             Padding="12"
+                             CornerRadius="20"
+                             HorizontalOptions="Center"
+                             VerticalOptions="Center" />
+
+                <ImageButton Source="cross_icon.png"
+                             BackgroundColor="#FFFFFF"
+                             WidthRequest="40"
+                             x:Name="CloseBtn"
+                             Clicked="OnCloseClicked"
+                             HeightRequest="40"
+                             Padding="14"
+                             CornerRadius="20"
+                             HorizontalOptions="Center"
+                             VerticalOptions="Center" />
+            </HorizontalStackLayout>
+        </Grid>
+        <!--Top Navbar Ends Here-->
+
+
+        <Grid ColumnDefinitions=".50*,.50*" Margin="0,40,0,0" HeightRequest="40">
+            <HorizontalStackLayout Margin="40,0,0,0" Spacing="50" HorizontalOptions="Start">
+
+                <VerticalStackLayout WidthRequest="100">
+                    <Label HorizontalOptions="Center"
+                           Margin="0,0,0,6"
+                           TextColor="#666666"
+                           Text="Preference"
+                           FontFamily="Harabara"
+                           FontSize="16"/>
+                    <BoxView Color="#EEEEEE"
+                             CornerRadius="0"
+                             HeightRequest="3" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout WidthRequest="100">
+                    <Label HorizontalOptions="Center"
+                           Margin="0,0,0,6"
+                           TextColor="#5AB9EA"
+                           Text="Mapping"
+                           FontFamily="Harabara"
+                           FontSize="16"/>
+                    <BoxView Color="#5AB9EA"
+                             CornerRadius="0"
+                             HeightRequest="3" />
+                </VerticalStackLayout>
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10" Margin="40,0,40,30" Grid.Column="1" HorizontalOptions="End">
+                <ImageButton Source="support_icon.png"
+                             BackgroundColor="#181F3C"
+                             WidthRequest="40"
+                             HeightRequest="40"
+                             Padding="10"
+                             Clicked="GotoNotificationPage"
+                             CornerRadius="20"
+                             HorizontalOptions="Center"
+                             VerticalOptions="Center" />
+            </HorizontalStackLayout>
+        </Grid>
+
+        <StackLayout Padding="30,0,30,0" Spacing="0">
+            <Grid RowDefinitions=".50*, .50*" ColumnSpacing="20" ColumnDefinitions="20*,20*,20*,20*">
+                <VerticalStackLayout Grid.Column="0">
+                    <HorizontalStackLayout>
+                        <Label Text="Choose One"
+                               TextColor="#000000"
+                               Margin="0,0,0,0"
+                               FontFamily="RobotoRegular" />
+                        <Image Source="info_icon.png" Margin="5,0,0,0" />
+                    </HorizontalStackLayout>
+
+                    <Border Stroke="#E1E5EA" BackgroundColor="Transparent" Padding="8" Margin="0,6,0,0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="30,30,30,30" />
+                        </Border.StrokeShape>
+                        <Entry x:Name="entry0"
+                               TextColor="#000000"
+                               Keyboard="Text"
+                               Text="VHP N V 11.0"
+                               CharacterSpacing="0"
+                               FontFamily="RobotoRegular"
+                               ClearButtonVisibility="WhileEditing"
+                               PlaceholderColor="#C6C6C6"
+                               Placeholder="Select One"/>
+                    </Border>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Grid.Column="1">
+                    <HorizontalStackLayout>
+                        <Label Text="Choose One"
+                               TextColor="#000000"
+                               Margin="0,0,0,0"
+                               FontFamily="RobotoRegular" />
+                        <Image Source="info_icon.png" Margin="5,0,0,0" />
+                    </HorizontalStackLayout>
+
+                    <Border Stroke="#E1E5EA" BackgroundColor="Transparent" Padding="8" Margin="0,6,0,0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="30,30,30,30" />
+                        </Border.StrokeShape>
+                        <Entry x:Name="entry1"
+                               TextColor="#000000"
+                               Keyboard="Text"
+                               Text="Desktop"
+                               CharacterSpacing="0"
+                               FontFamily="RobotoRegular"
+                               ClearButtonVisibility="WhileEditing"
+                               PlaceholderColor="#C6C6C6"
+                               Placeholder="Select One"/>
+                    </Border>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Grid.Column="2">
+                    <HorizontalStackLayout>
+                        <Label Text="Choose One"
+                               TextColor="#000000"
+                               Margin="0,0,0,0"
+                               FontFamily="RobotoRegular" />
+                        <Image Source="info_icon.png" Margin="5,0,0,0" />
+                    </HorizontalStackLayout>
+
+                    <Border Stroke="#E1E5EA" BackgroundColor="Transparent" Padding="8" Margin="0,6,0,0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="30,30,30,30" />
+                        </Border.StrokeShape>
+                        <Entry x:Name="entry2"
+                               TextColor="#000000"
+                               Keyboard="Text"
+                               Text="Hotel 1 (HO7705)"
+                               CharacterSpacing="0"
+                               FontFamily="RobotoRegular"
+                               ClearButtonVisibility="WhileEditing"
+                               PlaceholderColor="#C6C6C6"
+                               Placeholder="Select One"/>
+                    </Border>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Grid.Column="3">
+                    <HorizontalStackLayout>
+                        <Label Text="Choose One"
+                               TextColor="#000000"
+                               Margin="0,0,0,0"
+                               FontFamily="RobotoRegular" />
+                        <Image Source="info_icon.png" Margin="5,0,0,0" />
+                    </HorizontalStackLayout>
+
+                    <Border Stroke="#E1E5EA" BackgroundColor="Transparent" Padding="8" Margin="0,6,0,0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="30,30,30,30" />
+                        </Border.StrokeShape>
+                        <Entry x:Name="entry3"
+                               TextColor="#000000"
+                               Keyboard="Text"
+                               Text="Active"
+                               CharacterSpacing="0"
+                               FontFamily="RobotoRegular"
+                               ClearButtonVisibility="WhileEditing"
+                               PlaceholderColor="#C6C6C6"
+                               Placeholder="Select One"/>
+                    </Border>
+                </VerticalStackLayout>
+            </Grid>
+
+            <Grid Padding="0,0,20,0"
+                  Margin="0,20,0,0"
+                  ColumnSpacing="30"
+                  RowDefinitions="100*"
+                  ColumnDefinitions="130,100,90,*,140,100,40">
+                <Button FontFamily="RobotoRegular"
+                    Text="Get Presents"
+                    HeightRequest="39"
+                    BackgroundColor="#5AB9EA"
+                    TextColor="#FFFFFF"
+                    CornerRadius="20"
+                    Grid.Column="0" />
+
+
+                <HorizontalStackLayout Grid.Column="1">
+                    <CheckBox IsChecked="False" />
+                    <Label FontFamily="RobotoRegular" Text="PMS Version" Margin="3,9,0,0" />
+                </HorizontalStackLayout>
+
+                <Button FontFamily="RobotoRegular"
+                        Text="PMS Access"
+                        Grid.Column="3"
+                        Clicked="ShowToast"
+                        Padding="40,0,40,0"
+                        HeightRequest="39"
+                        HorizontalOptions="EndAndExpand"
+                        BackgroundColor="Transparent"
+                        BorderColor="#F0F2F4"
+                        BorderWidth="2"
+                        TextColor="#000000"
+                        CornerRadius="20" />
+            </Grid>
+
+
+        </StackLayout>
+
+        <BoxView Margin="20,20,20,20" HeightRequest="2" Color="#EEF0F3"></BoxView>
+
+        <StackLayout Padding="30,0,30,0" Spacing="0" Margin="0,0,0,30">
+            <Frame BackgroundColor="Transparent" BorderColor="Transparent" Padding="0">
+                <Grid Padding="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2.5*" />
+                        <ColumnDefinition Width="2.5*" />
+                        <ColumnDefinition Width="2.5*" />
+                        <ColumnDefinition Width="2.5*" />
+                        <ColumnDefinition Width="2.5*" />
+                    </Grid.ColumnDefinitions>
+
+                    <HorizontalStackLayout  Grid.Column="0" >
+                        <Image Source="form_icon.png" />
+                        <Label Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextTransform="Uppercase"
+                               TextColor="#5AB9EA"
+                               Text="Guestx Field Name"
+                               VerticalOptions="Center"/>
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout Grid.Column="1" >
+                        <Image Source="form_icon.png" />
+                        <Label Margin="10,0,10,0"
+                               FontSize="14"
+                               TextTransform="Uppercase"
+                               FontFamily="Roboto" 
+                               TextColor="#5AB9EA"
+                               Text="Field Name"
+                               VerticalOptions="Center" />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout Grid.Column="2">
+                        <Image Source="time_icon.png" />
+                        <Label Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextTransform="Uppercase"
+                               TextColor="#5AB9EA"
+                               Text="Mandatory"
+                               VerticalOptions="Center" />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout Grid.Column="3">
+                        <Image Source="time_icon.png" />
+                        <Label Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextTransform="Uppercase"
+                               TextColor="#5AB9EA"
+                               Text="Default Value"
+                               VerticalOptions="Center" />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout Grid.Column="4" HorizontalOptions="Center">
+                        <Image Source="sync_icon.png" />
+                        <Image Source="sync_icon.png" />
+                    </HorizontalStackLayout>
+                </Grid>
+            </Frame>
+
+            <!--List View Start Here-->
+            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="30,30,0,0" />
+                </Border.StrokeShape>
+                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                    <Grid Padding="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="ApplicationWithName"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="0" />
+                        <Label Text="VHP-Visual Hotel Program"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="1" />
+                        <Label Text="No"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="2" />
+                        <Label Text="C:\OpenEdge\bin.."
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="3" />
+
+                        <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="4">
+                            <Image Source="edit_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                            <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                        </HorizontalStackLayout>
+                    </Grid>
+                </Frame>
+            </Border>
+
+
+            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="0,0,0,0" />
+                </Border.StrokeShape>
+                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                    <Grid Padding="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="User Name"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="0" />
+                        <Label Text="12"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="1" />
+                        <Label Text="Yes"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="2" />
+                        <Label Text="Dayu"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="3" />
+
+                        <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="4">
+                            <Image Source="edit_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                            <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                        </HorizontalStackLayout>
+                    </Grid>
+                </Frame>
+            </Border>
+
+
+            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="0,0,30,30" />
+                </Border.StrokeShape>
+                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                    <Grid Padding="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Code"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="0" />
+                        <Label Text="13"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="1" />
+                        <Label Text="Yes"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="2" />
+                        <Label Text="1234"
+                               Margin="10,0,10,0"
+                               FontSize="14"
+                               FontFamily="Roboto"
+                               TextColor="#000000"
+                               VerticalOptions="Center"
+                               Grid.Column="3" />
+
+                        <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="4">
+                            <Image Source="edit_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                            <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                        </HorizontalStackLayout>
+                    </Grid>
+                </Frame>
+            </Border>
+
+            <!--List View Ends Here-->
+
+
+        </StackLayout>
+        
+
+        <Grid Padding="40,0,20,0" ColumnSpacing="30" RowDefinitions="100*" ColumnDefinitions="100,100,90,*, 140">
+            <Button FontFamily="RobotoRegular"
+                    Text="Test Run"
+                    HeightRequest="39"
+                    BackgroundColor="#5AB9EA"
+                    TextColor="#FFFFFF"
+                    CornerRadius="20"
+                    Grid.Column="0" />
+
+            <Button FontFamily="RobotoRegular"
+                    Grid.Column="1"
+                    Text="Add Filed"
+                    HeightRequest="39"
+                    BackgroundColor="Transparent"
+                    TextColor="#5AB9EA"
+                    BorderColor="#5AB9EA"
+                    CornerRadius="20"/>
+
+            <Button FontFamily="RobotoRegular"
+                    Grid.Column="2"
+                    Text="Reset"
+                    HeightRequest="39"
+                    BackgroundColor="Transparent"
+                    TextColor="#B2B9C3"
+                    BorderColor="#B2B9C3"
+                    CornerRadius="20"/>
+
+            <Button FontFamily="RobotoRegular"
+                    Text="Save"
+                    Grid.Column="3"
+                    HeightRequest="39"
+                    HorizontalOptions="EndAndExpand"
+                    BackgroundColor="#5AB9EA"
+                    TextColor="#FFFFFF"
+                    CornerRadius="20" />
+            <Button FontFamily="RobotoRegular"
+                    Text="Save &amp; Complete"
+                    Grid.Column="4"
+                    HeightRequest="39"
+                    BorderColor="#5AB9EA"
+                    HorizontalOptions="EndAndExpand"
+                    BackgroundColor="Transparent"
+                    TextColor="#5AB9EA"
+                    CornerRadius="20" />
+        </Grid>
+    </VerticalStackLayout>
+
+</ContentPage>

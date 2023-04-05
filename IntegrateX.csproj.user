@@ -23,13 +23,13 @@
     <MauiXaml Update="LogoutConfirmModal.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="MappingPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="NotificationIntervalsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="TabPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="TestPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="VerifyIdentityModalPage.xaml">

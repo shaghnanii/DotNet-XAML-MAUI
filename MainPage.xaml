@@ -128,6 +128,7 @@
                         HeightRequest="39"
                         BorderColor="#5AB9EA"
                         TextColor="#5AB9EA"
+                        BackgroundColor="Transparent"
                         CornerRadius="20"
                         WidthRequest="150" />
                 <Button FontFamily="RobotoRegular"
@@ -143,7 +144,6 @@
                 <ImageButton Source="support_icon.png"
                              BackgroundColor="#181F3C"
                              WidthRequest="40"
-                             Clicked="GotoTestPage"
                              HeightRequest="40"
                              Padding="10"
                              CornerRadius="20"

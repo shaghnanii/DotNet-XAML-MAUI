@@ -36,9 +36,5 @@ public partial class MainPage : ContentPage
 		this.ShowPopup(new VerifyIdentityModalPage());
 
 	}
-    private async void GotoTestPage(object sender, EventArgs e)
-    {
-        await Shell.Current.GoToAsync("//TestPage");
-    }
 }
 

@@ -19,13 +19,13 @@
                   ContentTemplate="{DataTemplate local:VerifyIdentityModalPage}"
                   Route="VerifyIdentityModalPage" />
 
-    <ShellContent Title="TestPage"
-                  ContentTemplate="{DataTemplate local:TestPage}"
-                  Route="TestPage" />
-
     <ShellContent Title="NotificationIntervalsPage"
                   ContentTemplate="{DataTemplate local:NotificationIntervalsPage}"
                   Route="NotificationIntervalsPage" />
+
+    <ShellContent Title="MappingPage"
+                  ContentTemplate="{DataTemplate local:MappingPage}"
+                  Route="MappingPage" />
 
 
 </Shell>

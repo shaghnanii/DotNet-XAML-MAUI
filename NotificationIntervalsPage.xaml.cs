@@ -14,4 +14,9 @@ public partial class NotificationIntervalsPage : ContentPage
 	{
         this.ShowPopup(new LogoutConfirmModal());
     }
+
+	private async void GotoMappingPage(object sender, EventArgs e)
+	{
+		await Shell.Current.GoToAsync("//MappingPage");
+	}
 }
