@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SignupSol\\IntegrateX\\IntegrateX\\IntegrateX.csproj": {}
+    "D:\\SignupSol\\DotNet-XAML-MAUI\\IntegrateX.csproj": {}
   },
   "projects": {
-    "D:\\SignupSol\\IntegrateX\\IntegrateX\\IntegrateX.csproj": {
+    "D:\\SignupSol\\DotNet-XAML-MAUI\\IntegrateX.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SignupSol\\IntegrateX\\IntegrateX\\IntegrateX.csproj",
+        "projectUniqueName": "D:\\SignupSol\\DotNet-XAML-MAUI\\IntegrateX.csproj",
         "projectName": "IntegrateX",
-        "projectPath": "D:\\SignupSol\\IntegrateX\\IntegrateX\\IntegrateX.csproj",
+        "projectPath": "D:\\SignupSol\\DotNet-XAML-MAUI\\IntegrateX.csproj",
         "packagesPath": "C:\\Users\\shake\\.nuget\\packages\\",
-        "outputPath": "D:\\SignupSol\\IntegrateX\\IntegrateX\\obj\\",
+        "outputPath": "D:\\SignupSol\\DotNet-XAML-MAUI\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[6.0.552, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.TabView": {
+              "target": "Package",
+              "version": "[21.1.38, )"
             }
           },
           "imports": [
@@ -189,6 +193,10 @@
               "version": "[6.0.552, )",
               "autoReferenced": true
             },
+            "Syncfusion.Maui.TabView": {
+              "target": "Package",
+              "version": "[21.1.38, )"
+            },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
               "version": "[6.0.1, )",
@@ -279,6 +287,10 @@
               "target": "Package",
               "version": "[6.0.552, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.TabView": {
+              "target": "Package",
+              "version": "[21.1.38, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
@@ -377,6 +389,10 @@
               "target": "Package",
               "version": "[10.0.22000.194, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.TabView": {
+              "target": "Package",
+              "version": "[21.1.38, )"
             }
           },
           "imports": [

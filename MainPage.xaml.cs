@@ -26,7 +26,7 @@ public partial class MainPage : ContentPage
         SemanticScreenReader.Announce(NewOrders.Text);
     }
 
-	private async void OnCloseClicked(object sender, EventArgs e)
+	private void OnCloseClicked(object sender, EventArgs e)
 	{
         this.ShowPopup(new LogoutConfirmModal());
     }

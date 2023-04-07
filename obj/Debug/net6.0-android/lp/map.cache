@@ -157,3 +157,11 @@ maui.aar
 Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
 Xamarin.Google.Crypto.Tink.Android.aar
+Syncfusion.Maui.Core.dll
+Syncfusion.Maui.TabView.dll
+SimpleToolkit.SimpleShell.dll
+FormsViewGroup.dll
+Sharpnado.Shadows.Android.dll
+Sharpnado.Tabs.Android.dll
+Xamarin.Forms.Platform.Android.dll
+Xamarin.Forms.Platform.dll

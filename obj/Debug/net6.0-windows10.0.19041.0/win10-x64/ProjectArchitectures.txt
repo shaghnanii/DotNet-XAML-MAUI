@@ -1,1 +1,1 @@
-D:\SignupSol\IntegrateX\IntegrateX\IntegrateX.csproj;x64
+D:\SignupSol\DotNet-XAML-MAUI\IntegrateX.csproj;x64

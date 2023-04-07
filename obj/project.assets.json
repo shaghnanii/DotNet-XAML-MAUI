@@ -343,6 +343,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -2480,6 +2511,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -4608,6 +4670,37 @@
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -6742,6 +6835,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -8870,6 +8994,37 @@
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -11004,6 +11159,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -13132,6 +13318,37 @@
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -15266,6 +15483,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -17379,6 +17627,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -17792,6 +18071,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -18196,6 +18506,37 @@
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -18606,6 +18947,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -19010,6 +19382,37 @@
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -19420,6 +19823,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -19824,6 +20258,37 @@
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -20234,6 +20699,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -20638,6 +21134,37 @@
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -21054,6 +21581,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -21458,6 +22016,37 @@
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -21868,6 +22457,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -22272,6 +22892,37 @@
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -22682,6 +23333,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -23089,6 +23771,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -23493,6 +24206,37 @@
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -24032,6 +24776,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -24538,6 +25313,37 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -25036,6 +25842,37 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -25538,6 +26375,37 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -26036,6 +26904,37 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -26538,6 +27437,37 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -27036,6 +27966,37 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -27542,6 +28503,37 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "related": ".deps.json;.xml"
+          }
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -28878,6 +29870,94 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "Syncfusion.Maui.Core/21.1.38": {
+      "sha512": "gQf22G5LD5ldblmjGHsjJ0+VBc5N9A7NMSymfkmPjwdPu2YqdQD7V9vmz5XQ/a9v6iAr/K4vGTAolrg6CpJ+Qw==",
+      "type": "package",
+      "path": "syncfusion.maui.core/21.1.38",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net6.0-android30.0/Syncfusion.Licensing.dll",
+        "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll",
+        "lib/net6.0-android30.0/Syncfusion.Maui.Core.xml",
+        "lib/net6.0-ios13.6/Syncfusion.Licensing.dll",
+        "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll",
+        "lib/net6.0-ios13.6/Syncfusion.Maui.Core.xml",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.xml",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.xml",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net6.0/Syncfusion.Maui.Core.dll",
+        "lib/net6.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-android30.0/Syncfusion.Licensing.dll",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Core.aar",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-ios13.6/Syncfusion.Licensing.dll",
+        "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-ios13.6/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net7.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0/Syncfusion.Maui.Core.xml",
+        "syncfusion.maui.core.21.1.38.nupkg.sha512",
+        "syncfusion.maui.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.TabView/21.1.38": {
+      "sha512": "OJanBO0fEgesouRDwnl8AsXU2WTIfW9kam78qa/EYhKYjqFqW8EvcRlACH1hrIXnVnNHvfKWGZjhTTk2thmMrw==",
+      "type": "package",
+      "path": "syncfusion.maui.tabview/21.1.38",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net6.0-android30.0/Syncfusion.Maui.TabView.dll",
+        "lib/net6.0-android30.0/Syncfusion.Maui.TabView.xml",
+        "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.dll",
+        "lib/net6.0-ios13.6/Syncfusion.Maui.TabView.xml",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.TabView.xml",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.deps.json",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.xml",
+        "lib/net6.0/Syncfusion.Maui.TabView.deps.json",
+        "lib/net6.0/Syncfusion.Maui.TabView.dll",
+        "lib/net6.0/Syncfusion.Maui.TabView.xml",
+        "lib/net7.0-android30.0/Syncfusion.Maui.TabView.aar",
+        "lib/net7.0-android30.0/Syncfusion.Maui.TabView.dll",
+        "lib/net7.0-android30.0/Syncfusion.Maui.TabView.xml",
+        "lib/net7.0-ios13.6/Syncfusion.Maui.TabView.dll",
+        "lib/net7.0-ios13.6/Syncfusion.Maui.TabView.xml",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.TabView.dll",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.TabView.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.TabView.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.TabView.xml",
+        "lib/net7.0/Syncfusion.Maui.TabView.deps.json",
+        "lib/net7.0/Syncfusion.Maui.TabView.dll",
+        "lib/net7.0/Syncfusion.Maui.TabView.xml",
+        "syncfusion.maui.tabview.21.1.38.nupkg.sha512",
+        "syncfusion.maui.tabview.nuspec",
+        "syncfusion_logo.png"
       ]
     },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -30888,13 +31968,15 @@
       "CommunityToolkit.Maui >= 2.0.0",
       "Microsoft.Extensions.Configuration.UserSecrets >= 6.0.1",
       "Microsoft.Maui.Dependencies >= 6.0.552",
-      "Microsoft.Maui.Extensions >= 6.0.552"
+      "Microsoft.Maui.Extensions >= 6.0.552",
+      "Syncfusion.Maui.TabView >= 21.1.38"
     ],
     "net6.0-ios16.1": [
       "CommunityToolkit.Maui >= 2.0.0",
       "Microsoft.Extensions.Configuration.UserSecrets >= 6.0.1",
       "Microsoft.Maui.Dependencies >= 6.0.552",
       "Microsoft.Maui.Extensions >= 6.0.552",
+      "Syncfusion.Maui.TabView >= 21.1.38",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-maccatalyst16.1": [
@@ -30902,6 +31984,7 @@
       "Microsoft.Extensions.Configuration.UserSecrets >= 6.0.1",
       "Microsoft.Maui.Dependencies >= 6.0.552",
       "Microsoft.Maui.Extensions >= 6.0.552",
+      "Syncfusion.Maui.TabView >= 21.1.38",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-windows10.0.19041": [
@@ -30909,7 +31992,8 @@
       "Microsoft.Extensions.Configuration.UserSecrets >= 6.0.1",
       "Microsoft.Maui.Dependencies >= 6.0.552",
       "Microsoft.Maui.Extensions >= 6.0.552",
-      "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194"
+      "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194",
+      "Syncfusion.Maui.TabView >= 21.1.38"
     ]
   },
   "packageFolders": {
@@ -30919,11 +32003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SignupSol\\IntegrateX\\IntegrateX\\IntegrateX.csproj",
+      "projectUniqueName": "D:\\SignupSol\\DotNet-XAML-MAUI\\IntegrateX.csproj",
       "projectName": "IntegrateX",
-      "projectPath": "D:\\SignupSol\\IntegrateX\\IntegrateX\\IntegrateX.csproj",
+      "projectPath": "D:\\SignupSol\\DotNet-XAML-MAUI\\IntegrateX.csproj",
       "packagesPath": "C:\\Users\\shake\\.nuget\\packages\\",
-      "outputPath": "D:\\SignupSol\\IntegrateX\\IntegrateX\\obj\\",
+      "outputPath": "D:\\SignupSol\\DotNet-XAML-MAUI\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -30990,6 +32074,10 @@
             "target": "Package",
             "version": "[6.0.552, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Maui.TabView": {
+            "target": "Package",
+            "version": "[21.1.38, )"
           }
         },
         "imports": [
@@ -31101,6 +32189,10 @@
             "version": "[6.0.552, )",
             "autoReferenced": true
           },
+          "Syncfusion.Maui.TabView": {
+            "target": "Package",
+            "version": "[21.1.38, )"
+          },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
             "version": "[6.0.1, )",
@@ -31191,6 +32283,10 @@
             "target": "Package",
             "version": "[6.0.552, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Maui.TabView": {
+            "target": "Package",
+            "version": "[21.1.38, )"
           },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
@@ -31289,6 +32385,10 @@
             "target": "Package",
             "version": "[10.0.22000.194, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Maui.TabView": {
+            "target": "Package",
+            "version": "[21.1.38, )"
           }
         },
         "imports": [

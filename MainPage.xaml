@@ -151,6 +151,7 @@
                              VerticalOptions="Center" />
             </HorizontalStackLayout>
         </Grid>
+        
         <!--Second Button Tab Ends Here-->
         <Grid ColumnDefinitions=".16*,.16*" HeightRequest="50" HorizontalOptions="Center">
             <HorizontalStackLayout Margin="0,0,0,0" Spacing="50" HorizontalOptions="Center">
@@ -233,88 +234,90 @@
 
         <StackLayout Padding="30,0,30,0" Spacing="0">
             <Frame BackgroundColor="Transparent" BorderColor="Transparent" Padding="0">
-                <Grid Padding="10">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="2.5*" />
-                        <ColumnDefinition Width="2.5*" />
-                        <ColumnDefinition Width="2.5*" />
-                        <ColumnDefinition Width="2.5*" />
-                    </Grid.ColumnDefinitions>
+                    <Grid Padding="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                            <ColumnDefinition Width="2.5*" />
+                        </Grid.ColumnDefinitions>
 
-                    <HorizontalStackLayout  Grid.Column="0" >
-                        <Image Source="reference_icon.png" />
-                        <Label Margin="10,0,10,0"
+                        <HorizontalStackLayout  Grid.Column="0" >
+                            <Image Source="reference_icon.png" />
+                            <Label Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#5AB9EA"
                                Text="Reference Number"
                                VerticalOptions="Center"/>
-                    </HorizontalStackLayout>
-                    <HorizontalStackLayout Grid.Column="1" >
-                        <Image Source="form_icon.png" />
-                        <Label Margin="10,0,10,0"
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" >
+                            <Image Source="form_icon.png" />
+                            <Label Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto" 
                                TextColor="#5AB9EA"
                                Text="Form/Entity"
                                VerticalOptions="Center" />
-                    </HorizontalStackLayout>
-                    <HorizontalStackLayout Grid.Column="2">
-                        <Image Source="time_icon.png" />
-                        <Label Margin="10,0,10,0"
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="2">
+                            <Image Source="time_icon.png" />
+                            <Label Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#5AB9EA"
                                Text="Time"
                                VerticalOptions="Center" />
-                    </HorizontalStackLayout>
-                    <HorizontalStackLayout Grid.Column="3">
-                        <Image Source="sync_icon.png" />
-                        <Label Margin="10,0,10,0"
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="3">
+                            <Image Source="sync_icon.png" />
+                            <Label Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#5AB9EA"
                                Text="Sync"
                                VerticalOptions="Center" />
-                    </HorizontalStackLayout>
+                        </HorizontalStackLayout>
 
-                    <!--These are the border/spaces between the tables-->
-                    <!--<BoxView BackgroundColor="Gray" WidthRequest="1"  Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                        <!--These are the border/spaces between the tables-->
+                        <!--<BoxView BackgroundColor="Gray" WidthRequest="1"  Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
                     <BoxView BackgroundColor="Gray" WidthRequest="1"  Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
                     <BoxView BackgroundColor="Gray" WidthRequest="1"  Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
                     <BoxView BackgroundColor="Gray" WidthRequest="1"  Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />-->
-                </Grid>
-            </Frame>
-            
+                    </Grid>
+                </Frame>
+
             <!--List View Start Here-->
-            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="30,30,0,0" />
-                </Border.StrokeShape>
-                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
-                    <Grid Padding="0">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                        </Grid.ColumnDefinitions>
+            <ScrollView HeightRequest="360">
+                <StackLayout>
+                    <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="30,30,0,0" />
+                        </Border.StrokeShape>
+                        <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                            <Grid Padding="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                </Grid.ColumnDefinitions>
 
-                        <Label Text="10987"
+                                <Label Text="10987"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="0" />
-                        <Label Text="Check Out"
+                                <Label Text="Check Out"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="1" />
-                        <Label Text="03/15/2023 06:15:54"
+                                <Label Text="03/15/2023 06:15:54"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
@@ -322,311 +325,311 @@
                                VerticalOptions="Center"
                                Grid.Column="2" />
 
-                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
-                            <Image Source="arrow_right.png" WidthRequest="24" Margin="10,0,10,0"/>
-                            <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
-                        </HorizontalStackLayout>
-                    </Grid>
-                </Frame>
-            </Border>
+                                <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                                    <Image Source="arrow_right.png" WidthRequest="24" Margin="10,0,10,0"/>
+                                    <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                                </HorizontalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </Border>
 
 
-            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="0,0,0,0" />
-                </Border.StrokeShape>
-                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
-                    <Grid Padding="0">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                        </Grid.ColumnDefinitions>
+                    <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="0,0,0,0" />
+                        </Border.StrokeShape>
+                        <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                            <Grid Padding="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                </Grid.ColumnDefinitions>
 
-                        <Label Text="10988"
+                                <Label Text="10988"
                                Margin="10,0,10,0" 
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="0" />
-                        <Label Text="Reservations"
+                                <Label Text="Reservations"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="1" />
-                        <Label Text="03/30/2023 23:28:54"
+                                <Label Text="03/30/2023 23:28:54"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="2" />
-                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
-                            <Image Source="arrow_right.png" WidthRequest="24" Margin="10,0,10,0"/>
-                            <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
-                        </HorizontalStackLayout>
-                    </Grid>
-                </Frame>
-            </Border>
+                                <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                                    <Image Source="arrow_right.png" WidthRequest="24" Margin="10,0,10,0"/>
+                                    <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                                </HorizontalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </Border>
 
-            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="0,0,0,0" />
-                </Border.StrokeShape>
-                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
-                    <Grid Padding="0">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                        </Grid.ColumnDefinitions>
+                    <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="0,0,0,0" />
+                        </Border.StrokeShape>
+                        <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                            <Grid Padding="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                </Grid.ColumnDefinitions>
 
-                        <Label Text="10989"
+                                <Label Text="10989"
                                Margin="10,0,10,0" 
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="0" />
-                        <Label Text="Bookings"
+                                <Label Text="Bookings"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="1" />
-                        <Label Text="10/18/2023 22:58:54"
+                                <Label Text="10/18/2023 22:58:54"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="2" />
-                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
-                            <Image Source="arrow_right.png" WidthRequest="24" Margin="10,0,10,0"/>
-                        </HorizontalStackLayout>
-                    </Grid>
-                </Frame>
-            </Border>
+                                <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                                    <Image Source="arrow_right.png" WidthRequest="24" Margin="10,0,10,0"/>
+                                </HorizontalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </Border>
 
-            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="0,0,0,0" />
-                </Border.StrokeShape>
-                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
-                    <Grid Padding="0">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                        </Grid.ColumnDefinitions>
+                    <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="0,0,0,0" />
+                        </Border.StrokeShape>
+                        <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                            <Grid Padding="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                </Grid.ColumnDefinitions>
 
-                        <Label Text="10990"
+                                <Label Text="10990"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="0" />
-                        <Label Text="Check Ins"
+                                <Label Text="Check Ins"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="1" />
-                        <Label Text="09/28/2023 06:36:59"
+                                <Label Text="09/28/2023 06:36:59"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center" 
                                Grid.Column="2" />
-                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
-                            <Image Source="arrow_left.png" WidthRequest="24" Margin="10,0,10,0"/>
-                            <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
-                        </HorizontalStackLayout>
-                    </Grid>
-                </Frame>
-            </Border>
+                                <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                                    <Image Source="arrow_left.png" WidthRequest="24" Margin="10,0,10,0"/>
+                                    <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                                </HorizontalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </Border>
 
-            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="0,0,0,0" />
-                </Border.StrokeShape>
-                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
-                    <Grid Padding="0">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                        </Grid.ColumnDefinitions>
+                    <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="0,0,0,0" />
+                        </Border.StrokeShape>
+                        <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                            <Grid Padding="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                </Grid.ColumnDefinitions>
 
-                        <Label Text="10991"
+                                <Label Text="10991"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="0" />
-                        <Label Text="Check Ins"
+                                <Label Text="Check Ins"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="1" />
-                        <Label Text="09/28/2023 06:36:59"
+                                <Label Text="09/28/2023 06:36:59"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center" 
                                Grid.Column="2" />
-                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
-                            <Image Source="arrow_left.png" WidthRequest="24" Margin="10,0,10,0"/>
-                        </HorizontalStackLayout>
-                    </Grid>
-                </Frame>
-            </Border>
+                                <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                                    <Image Source="arrow_left.png" WidthRequest="24" Margin="10,0,10,0"/>
+                                </HorizontalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </Border>
 
-            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="0,0,0,0" />
-                </Border.StrokeShape>
-                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
-                    <Grid Padding="0">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                        </Grid.ColumnDefinitions>
+                    <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="0,0,0,0" />
+                        </Border.StrokeShape>
+                        <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                            <Grid Padding="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                </Grid.ColumnDefinitions>
 
-                        <Label Text="10992"
+                                <Label Text="10992"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="0" />
-                        <Label Text="Check Ins"
+                                <Label Text="Check Ins"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="1" />
-                        <Label Text="09/28/2023 06:36:59"
+                                <Label Text="09/28/2023 06:36:59"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center" 
                                Grid.Column="2" />
-                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
-                            <Image Source="refresh_blue_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
-                        </HorizontalStackLayout>
-                    </Grid>
-                </Frame>
-            </Border>
+                                <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                                    <Image Source="refresh_blue_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                                </HorizontalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </Border>
 
-            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="0,0,0,0" />
-                </Border.StrokeShape>
-                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
-                    <Grid Padding="0">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                        </Grid.ColumnDefinitions>
+                    <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="0,0,0,0" />
+                        </Border.StrokeShape>
+                        <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                            <Grid Padding="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                </Grid.ColumnDefinitions>
 
-                        <Label Text="10993"
+                                <Label Text="10993"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="0" />
-                        <Label Text="Check Ins"
+                                <Label Text="Check Ins"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="1" />
-                        <Label Text="09/28/2023 06:36:59"
+                                <Label Text="09/28/2023 06:36:59"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center" 
                                Grid.Column="2" />
-                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
-                            <Label Text="Pending" TextColor="#CCCCCC" />
-                            <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
-                        </HorizontalStackLayout>
-                    </Grid>
-                </Frame>
-            </Border>
+                                <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                                    <Label Text="Pending" TextColor="#CCCCCC" />
+                                    <Image Source="delete_icon.png" WidthRequest="24" Margin="10,0,10,0"/>
+                                </HorizontalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </Border>
 
-            <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="0,0,30,30" />
-                </Border.StrokeShape>
-                <Frame BackgroundColor="Transparent" BorderColor="Transparent">
-                    <Grid Padding="0">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                            <ColumnDefinition Width="2.5*" />
-                        </Grid.ColumnDefinitions>
+                    <Border Stroke="#E9ECEF" Background="Transparent" Padding="-6">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="0,0,30,30" />
+                        </Border.StrokeShape>
+                        <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                            <Grid Padding="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                    <ColumnDefinition Width="2.5*" />
+                                </Grid.ColumnDefinitions>
 
-                        <Label Text="10994"
+                                <Label Text="10994"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="0" />
-                        <Label Text="Check Ins"
+                                <Label Text="Check Ins"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center"
                                Grid.Column="1" />
-                        <Label Text="09/28/2023 06:36:59"
+                                <Label Text="09/28/2023 06:36:59"
                                Margin="10,0,10,0"
                                FontSize="14"
                                FontFamily="Roboto"
                                TextColor="#000000"
                                VerticalOptions="Center" 
                                Grid.Column="2" />
-                        <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
-                            <Image Source="arrow_left.png" WidthRequest="24" Margin="10,0,10,0"/>
-                        </HorizontalStackLayout>
-                    </Grid>
-                </Frame>
-            </Border>
-
-
+                                <HorizontalStackLayout VerticalOptions="Center" Grid.Column="3">
+                                    <Image Source="arrow_left.png" WidthRequest="24" Margin="10,0,10,0"/>
+                                </HorizontalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </Border>
+                </StackLayout>
+            </ScrollView>
             <!--List View Ends Here-->
-
-
+            
+            
         </StackLayout>
-
+        
     </VerticalStackLayout>
 
 </ContentPage>

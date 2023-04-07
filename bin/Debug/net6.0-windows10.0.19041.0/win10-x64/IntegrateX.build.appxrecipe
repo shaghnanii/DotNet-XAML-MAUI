@@ -10,31 +10,31 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>072d687c-ad3b-4a19-b2c0-d13dce42a520</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath></WindowsSdkPath>
-    <LayoutDir>D:\SignupSol\IntegrateX\IntegrateX\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>D:\SignupSol\DotNet-XAML-MAUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\SignupSol\IntegrateX\IntegrateX\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="D:\SignupSol\DotNet-XAML-MAUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\IntegrateX.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\IntegrateX.runtimeconfig.json">
       <PackagePath>IntegrateX.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\IntegrateX.dll">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\IntegrateX.dll">
       <PackagePath>IntegrateX.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>IntegrateX.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shake\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.15\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
@@ -814,13 +814,22 @@
     <AppxPackagedFile Include="C:\Users\shake\.nuget\packages\microsoft.windowsappsdk\1.1.5\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shake\.nuget\packages\syncfusion.maui.core\21.1.38\lib\net6.0-windows10.0.19041.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shake\.nuget\packages\syncfusion.maui.core\21.1.38\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.Core.dll">
+      <PackagePath>Syncfusion.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shake\.nuget\packages\syncfusion.maui.tabview\21.1.38\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.TabView.dll">
+      <PackagePath>Syncfusion.Maui.TabView.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shake\.nuget\packages\microsoft.graphics.win2d\1.0.3.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shake\.nuget\packages\microsoft.windowsappsdk\1.1.5\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\IntegrateX.deps.json">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\IntegrateX.deps.json">
       <PackagePath>IntegrateX.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shake\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
@@ -832,529 +841,529 @@
     <AppxPackagedFile Include="C:\Users\shake\.nuget\packages\microsoft.maui.core.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Harabara.otf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Harabara.otf">
       <PackagePath>Harabara.otf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Black.ttf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Black.ttf">
       <PackagePath>Roboto-Black.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-BlackItalic.ttf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-BlackItalic.ttf">
       <PackagePath>Roboto-BlackItalic.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Bold.ttf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Bold.ttf">
       <PackagePath>Roboto-Bold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-BoldItalic.ttf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-BoldItalic.ttf">
       <PackagePath>Roboto-BoldItalic.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Italic.ttf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Italic.ttf">
       <PackagePath>Roboto-Italic.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Light.ttf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Light.ttf">
       <PackagePath>Roboto-Light.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-LightItalic.ttf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-LightItalic.ttf">
       <PackagePath>Roboto-LightItalic.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Medium.ttf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Medium.ttf">
       <PackagePath>Roboto-Medium.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-MediumItalic.ttf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-MediumItalic.ttf">
       <PackagePath>Roboto-MediumItalic.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Regular.ttf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Regular.ttf">
       <PackagePath>Roboto-Regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Thin.ttf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-Thin.ttf">
       <PackagePath>Roboto-Thin.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-ThinItalic.ttf">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Roboto-ThinItalic.ttf">
       <PackagePath>Roboto-ThinItalic.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-100.png">
       <PackagePath>arrow_down.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-125.png">
       <PackagePath>arrow_down.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-150.png">
       <PackagePath>arrow_down.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-200.png">
       <PackagePath>arrow_down.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_down.scale-400.png">
       <PackagePath>arrow_down.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-100.png">
       <PackagePath>arrow_left.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-125.png">
       <PackagePath>arrow_left.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-150.png">
       <PackagePath>arrow_left.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-200.png">
       <PackagePath>arrow_left.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left.scale-400.png">
       <PackagePath>arrow_left.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-100.png">
       <PackagePath>arrow_right.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-125.png">
       <PackagePath>arrow_right.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-150.png">
       <PackagePath>arrow_right.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-200.png">
       <PackagePath>arrow_right.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-400.png">
       <PackagePath>arrow_right.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-100.png">
       <PackagePath>arrow_up.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-125.png">
       <PackagePath>arrow_up.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-150.png">
       <PackagePath>arrow_up.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-200.png">
       <PackagePath>arrow_up.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_up.scale-400.png">
       <PackagePath>arrow_up.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-100.png">
       <PackagePath>back_arrow.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-125.png">
       <PackagePath>back_arrow.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-150.png">
       <PackagePath>back_arrow.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-200.png">
       <PackagePath>back_arrow.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_arrow.scale-400.png">
       <PackagePath>back_arrow.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\banner.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\banner.scale-100.png">
       <PackagePath>banner.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_icon.scale-100.png">
       <PackagePath>cross_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-100.png">
       <PackagePath>delete_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-125.png">
       <PackagePath>delete_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-150.png">
       <PackagePath>delete_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-200.png">
       <PackagePath>delete_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-400.png">
       <PackagePath>delete_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-100.png">
       <PackagePath>edit_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-125.png">
       <PackagePath>edit_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-150.png">
       <PackagePath>edit_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-200.png">
       <PackagePath>edit_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit_icon.scale-400.png">
       <PackagePath>edit_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-100.png">
       <PackagePath>form_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-125.png">
       <PackagePath>form_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-150.png">
       <PackagePath>form_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-200.png">
       <PackagePath>form_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\form_icon.scale-400.png">
       <PackagePath>form_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-100.png">
       <PackagePath>info_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-125.png">
       <PackagePath>info_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-150.png">
       <PackagePath>info_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-200.png">
       <PackagePath>info_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_icon.scale-400.png">
       <PackagePath>info_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-100.png">
       <PackagePath>logout_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-125.png">
       <PackagePath>logout_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-150.png">
       <PackagePath>logout_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-200.png">
       <PackagePath>logout_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout_icon.scale-400.png">
       <PackagePath>logout_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\minus_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\minus_icon.scale-100.png">
       <PackagePath>minus_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-100.png">
       <PackagePath>preference_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-125.png">
       <PackagePath>preference_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-150.png">
       <PackagePath>preference_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-200.png">
       <PackagePath>preference_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\preference_icon.scale-400.png">
       <PackagePath>preference_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-100.png">
       <PackagePath>reference_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-125.png">
       <PackagePath>reference_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-150.png">
       <PackagePath>reference_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-200.png">
       <PackagePath>reference_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\reference_icon.scale-400.png">
       <PackagePath>reference_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_blue_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_blue_icon.scale-100.png">
       <PackagePath>refresh_blue_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_blue_icon.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_blue_icon.scale-125.png">
       <PackagePath>refresh_blue_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_blue_icon.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_blue_icon.scale-150.png">
       <PackagePath>refresh_blue_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_blue_icon.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_blue_icon.scale-200.png">
       <PackagePath>refresh_blue_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_blue_icon.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_blue_icon.scale-400.png">
       <PackagePath>refresh_blue_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-100.png">
       <PackagePath>refresh_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-125.png">
       <PackagePath>refresh_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-150.png">
       <PackagePath>refresh_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-200.png">
       <PackagePath>refresh_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-400.png">
       <PackagePath>refresh_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-100.png">
       <PackagePath>status_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-125.png">
       <PackagePath>status_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-150.png">
       <PackagePath>status_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-200.png">
       <PackagePath>status_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon.scale-400.png">
       <PackagePath>status_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-100.png">
       <PackagePath>status_icon_one.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-125.png">
       <PackagePath>status_icon_one.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-150.png">
       <PackagePath>status_icon_one.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-200.png">
       <PackagePath>status_icon_one.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\status_icon_one.scale-400.png">
       <PackagePath>status_icon_one.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-100.png">
       <PackagePath>support_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-125.png">
       <PackagePath>support_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-150.png">
       <PackagePath>support_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-200.png">
       <PackagePath>support_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\support_icon.scale-400.png">
       <PackagePath>support_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-100.png">
       <PackagePath>sync_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-125.png">
       <PackagePath>sync_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-150.png">
       <PackagePath>sync_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-200.png">
       <PackagePath>sync_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sync_icon.scale-400.png">
       <PackagePath>sync_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-100.png">
       <PackagePath>tick_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-125.png">
       <PackagePath>tick_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-150.png">
       <PackagePath>tick_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-200.png">
       <PackagePath>tick_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tick_icon.scale-400.png">
       <PackagePath>tick_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-100.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-100.png">
       <PackagePath>time_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-125.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-125.png">
       <PackagePath>time_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-150.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-150.png">
       <PackagePath>time_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-200.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-200.png">
       <PackagePath>time_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SignupSol\IntegrateX\IntegrateX\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-400.png">
+    <AppxPackagedFile Include="D:\SignupSol\DotNet-XAML-MAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_icon.scale-400.png">
       <PackagePath>time_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

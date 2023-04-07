@@ -14,6 +14,7 @@
           "Microsoft.Maui.Dependencies": "6.0.552",
           "Microsoft.Maui.Extensions": "6.0.552",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194",
+          "Syncfusion.Maui.TabView": "21.1.38",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "6.0.15",
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "6.0.552",
           "runtimepack.Microsoft.Maui.Controls.Runtime.win": "6.0.552",
@@ -1199,6 +1200,29 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.38": {
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "21.1.38.0",
+            "fileVersion": "21.1.38.0"
+          },
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "assemblyVersion": "21.1.38.0",
+            "fileVersion": "21.1.38.0"
+          }
+        }
+      },
+      "Syncfusion.Maui.TabView/21.1.38": {
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.38"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.TabView.dll": {
+            "assemblyVersion": "21.1.38.0",
+            "fileVersion": "21.1.38.0"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -1409,6 +1433,20 @@
       "sha512": "sha512-gGeFfN1AQiIo6DaPe4KkOvlx/EDjwq/Lc+Q3EzX+U4x/hsiZkls/XqFpNTjELyYgsxl8g0SiPzguJ7A1dlhC6Q==",
       "path": "microsoft.windowsappsdk/1.1.5",
       "hashPath": "microsoft.windowsappsdk.1.1.5.nupkg.sha512"
+    },
+    "Syncfusion.Maui.Core/21.1.38": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gQf22G5LD5ldblmjGHsjJ0+VBc5N9A7NMSymfkmPjwdPu2YqdQD7V9vmz5XQ/a9v6iAr/K4vGTAolrg6CpJ+Qw==",
+      "path": "syncfusion.maui.core/21.1.38",
+      "hashPath": "syncfusion.maui.core.21.1.38.nupkg.sha512"
+    },
+    "Syncfusion.Maui.TabView/21.1.38": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OJanBO0fEgesouRDwnl8AsXU2WTIfW9kam78qa/EYhKYjqFqW8EvcRlACH1hrIXnVnNHvfKWGZjhTTk2thmMrw==",
+      "path": "syncfusion.maui.tabview/21.1.38",
+      "hashPath": "syncfusion.maui.tabview.21.1.38.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "type": "package",

@@ -8,75 +8,75 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IntegrateX
-build_property.ProjectDir = D:\SignupSol\IntegrateX\IntegrateX\
+build_property.ProjectDir = D:\SignupSol\DotNet-XAML-MAUI\
 
-[D:/SignupSol/IntegrateX/IntegrateX/AboutPage.xaml]
+[D:/SignupSol/DotNet-XAML-MAUI/AboutPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.AboutPage.xaml
 build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
 
-[D:/SignupSol/IntegrateX/IntegrateX/App.xaml]
+[D:/SignupSol/DotNet-XAML-MAUI/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/SignupSol/IntegrateX/IntegrateX/AppShell.xaml]
+[D:/SignupSol/DotNet-XAML-MAUI/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/SignupSol/IntegrateX/IntegrateX/LoginPage.xaml]
+[D:/SignupSol/DotNet-XAML-MAUI/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
 
-[D:/SignupSol/IntegrateX/IntegrateX/LogoutConfirmModal.xaml]
+[D:/SignupSol/DotNet-XAML-MAUI/LogoutConfirmModal.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.LogoutConfirmModal.xaml
 build_metadata.AdditionalFiles.TargetPath = LogoutConfirmModal.xaml
 build_metadata.AdditionalFiles.RelativePath = LogoutConfirmModal.xaml
 
-[D:/SignupSol/IntegrateX/IntegrateX/MainPage.xaml]
+[D:/SignupSol/DotNet-XAML-MAUI/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/SignupSol/IntegrateX/IntegrateX/MappingPage.xaml]
+[D:/SignupSol/DotNet-XAML-MAUI/MappingPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.MappingPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MappingPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MappingPage.xaml
 
-[D:/SignupSol/IntegrateX/IntegrateX/NotificationIntervalsPage.xaml]
+[D:/SignupSol/DotNet-XAML-MAUI/NotificationIntervalsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.NotificationIntervalsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = NotificationIntervalsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = NotificationIntervalsPage.xaml
 
-[D:/SignupSol/IntegrateX/IntegrateX/Resources/Styles/Colors.xaml]
+[D:/SignupSol/DotNet-XAML-MAUI/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/SignupSol/IntegrateX/IntegrateX/Resources/Styles/Styles.xaml]
+[D:/SignupSol/DotNet-XAML-MAUI/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/SignupSol/IntegrateX/IntegrateX/TabPage.xaml]
+[D:/SignupSol/DotNet-XAML-MAUI/TabPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.TabPage.xaml
 build_metadata.AdditionalFiles.TargetPath = TabPage.xaml
 build_metadata.AdditionalFiles.RelativePath = TabPage.xaml
 
-[D:/SignupSol/IntegrateX/IntegrateX/VerifyIdentityModalPage.xaml]
+[D:/SignupSol/DotNet-XAML-MAUI/VerifyIdentityModalPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = IntegrateX.VerifyIdentityModalPage.xaml
 build_metadata.AdditionalFiles.TargetPath = VerifyIdentityModalPage.xaml

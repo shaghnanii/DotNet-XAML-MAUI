@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MZI04HqjEzWFXj/ioGBbx3wnocBCxzyZjvr4EfLIFqoZL0Vt1J82FpdajLD8fEZydxGDfmaTDyAvkUFXrhYn2g==",
+  "dgSpecHash": "VUSXfJfBgsfGAYLpRmXGfBmylmE5Sw5VjRx+caqOmHY559hyTdYwDDWrLXKlTpawFs52sgEz13pMboOhhnu8+w==",
   "success": true,
-  "projectFilePath": "D:\\SignupSol\\IntegrateX\\IntegrateX\\IntegrateX.csproj",
+  "projectFilePath": "D:\\SignupSol\\DotNet-XAML-MAUI\\IntegrateX.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shake\\.nuget\\packages\\communitytoolkit.maui\\2.0.0\\communitytoolkit.maui.2.0.0.nupkg.sha512",
     "C:\\Users\\shake\\.nuget\\packages\\communitytoolkit.maui.core\\2.0.0\\communitytoolkit.maui.core.2.0.0.nupkg.sha512",
@@ -28,6 +28,8 @@
     "C:\\Users\\shake\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\6.0.501\\microsoft.maui.graphics.win2d.winui.desktop.6.0.501.nupkg.sha512",
     "C:\\Users\\shake\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
     "C:\\Users\\shake\\.nuget\\packages\\microsoft.windowsappsdk\\1.1.5\\microsoft.windowsappsdk.1.1.5.nupkg.sha512",
+    "C:\\Users\\shake\\.nuget\\packages\\syncfusion.maui.core\\21.1.38\\syncfusion.maui.core.21.1.38.nupkg.sha512",
+    "C:\\Users\\shake\\.nuget\\packages\\syncfusion.maui.tabview\\21.1.38\\syncfusion.maui.tabview.21.1.38.nupkg.sha512",
     "C:\\Users\\shake\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\shake\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\shake\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
